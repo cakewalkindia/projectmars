@@ -290,6 +290,12 @@
       "path": "packages/global-imports.js"
     },
     {
+      "path": "app/lib/collections.js"
+    },
+    {
+      "path": "app/server/smtp.js"
+    },
+    {
       "sourceMap": "packages/service-configuration.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/service-configuration.js"

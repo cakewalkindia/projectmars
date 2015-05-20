@@ -579,6 +579,15 @@
       "hash": "e3b7a963e010135aeb189273a43d7baf10a7cc3a"
     },
     {
+      "path": "app/lib/collections.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/lib/collections.js?cc52ebdab979df75f423adb2efd95cc73f98f8f8",
+      "size": 69,
+      "hash": "cc52ebdab979df75f423adb2efd95cc73f98f8f8"
+    },
+    {
       "path": "app/client/StudyDesign/StudyDesign.js",
       "where": "client",
       "type": "js",
@@ -662,6 +671,15 @@
       "url": "/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
       "size": 18028,
       "hash": "ca35b697d99cae4d1b60f2d60fcd37771987eb07"
+    },
+    {
+      "path": "app/Images/contactUs.JPG",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Images/contactUs.JPG",
+      "size": 90385,
+      "hash": "514daeee3985d52ecff8d1f2f70f87d102302e0f"
     }
   ]
 }
