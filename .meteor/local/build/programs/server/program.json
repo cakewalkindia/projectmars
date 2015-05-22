@@ -165,11 +165,6 @@
       "path": "packages/retry.js"
     },
     {
-      "sourceMap": "packages/autopublish.js.map",
-      "sourceMapRoot": "packages",
-      "path": "packages/autopublish.js"
-    },
-    {
       "sourceMap": "packages/callback-hook.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/callback-hook.js"
@@ -272,6 +267,16 @@
       }
     },
     {
+      "sourceMap": "packages/peernohell_c3.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/peernohell_c3.js"
+    },
+    {
+      "sourceMap": "packages/fortawesome_fontawesome.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/fortawesome_fontawesome.js"
+    },
+    {
       "sourceMap": "packages/session.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/session.js"
@@ -290,7 +295,16 @@
       "path": "packages/global-imports.js"
     },
     {
+      "path": "app/lib/ExtractionEngine.js"
+    },
+    {
+      "path": "app/lib/Utils.js"
+    },
+    {
       "path": "app/lib/collections.js"
+    },
+    {
+      "path": "app/server/StudyDesign.js"
     },
     {
       "path": "app/server/smtp.js"

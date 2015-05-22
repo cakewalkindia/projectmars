@@ -1,0 +1,26 @@
+.studyName{
+    height: 100px;
+    padding: 22px !important;
+    text-align: right;
+    border-right: 1px solid #e5e5e5;
+}
+
+.studyCount{
+    height: 100px;
+    padding: 22px !important;
+    text-align: left;
+}
+
+.studyDesignDataTable{
+    border: 1px solid #e5e5e5;
+}
+
+.rowColor{
+    background-color: rgba(80,148,224,.1);
+}
+
+.sdFont{
+    color: #3695d5;
+    font-size: 13px;
+    font-weight: 700;
+}
