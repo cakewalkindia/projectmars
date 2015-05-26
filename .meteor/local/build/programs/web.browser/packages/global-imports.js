@@ -3,6 +3,8 @@
 accountsUIBootstrap3 = Package['ian:accounts-ui-bootstrap-3'].accountsUIBootstrap3;
 Router = Package['iron:router'].Router;
 RouteController = Package['iron:router'].RouteController;
+FastClick = Package.fastclick.FastClick;
+Accounts = Package['accounts-base'].Accounts;
 Meteor = Package.meteor.Meteor;
 WebApp = Package.webapp.WebApp;
 Log = Package.logging.Log;
@@ -24,7 +26,6 @@ jQuery = Package.jquery.jQuery;
 Random = Package.random.Random;
 EJSON = Package.ejson.EJSON;
 LaunchScreen = Package['launch-screen'].LaunchScreen;
-Accounts = Package['accounts-base'].Accounts;
 Iron = Package['iron:core'].Iron;
 HTML = Package.htmljs.HTML;
 

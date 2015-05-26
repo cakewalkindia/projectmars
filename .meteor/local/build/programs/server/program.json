@@ -1,6 +1,6 @@
 {
   "format": "javascript-image-pre1",
-  "arch": "os",
+  "arch": "os.windows.x86_32",
   "load": [
     {
       "sourceMap": "packages/underscore.js.map",
@@ -8,7 +8,7 @@
       "path": "packages/underscore.js"
     },
     {
-      "node_modules": "/C/Users/SOHEB.RAPATI/AppData/Local/.meteor/packages/meteor/1.1.6/npm/node_modules",
+      "node_modules": "/C/Users/Asif/AppData/Local/.meteor/packages/meteor/1.1.6/npm/node_modules",
       "sourceMap": "packages/meteor.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/meteor.js"
@@ -34,7 +34,7 @@
       "path": "packages/ejson.js"
     },
     {
-      "node_modules": "/C/Users/SOHEB.RAPATI/AppData/Local/.meteor/packages/logging/1.0.7/npm/node_modules",
+      "node_modules": "/C/Users/Asif/AppData/Local/.meteor/packages/logging/1.0.7/npm/node_modules",
       "sourceMap": "packages/logging.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/logging.js"
@@ -149,7 +149,7 @@
       "path": "packages/webapp-hashing.js"
     },
     {
-      "node_modules": "/C/Users/SOHEB.RAPATI/AppData/Local/.meteor/packages/webapp/1.2.0/npm/node_modules",
+      "node_modules": "/C/Users/Asif/AppData/Local/.meteor/packages/webapp/1.2.0/npm/node_modules",
       "sourceMap": "packages/webapp.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/webapp.js"
@@ -170,7 +170,7 @@
       "path": "packages/callback-hook.js"
     },
     {
-      "node_modules": "/C/Users/SOHEB.RAPATI/AppData/Local/.meteor/packages/ddp/1.1.0/npm/node_modules",
+      "node_modules": "/C/Users/Asif/AppData/Local/.meteor/packages/ddp/1.1.0/npm/node_modules",
       "sourceMap": "packages/ddp.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/ddp.js"
@@ -186,7 +186,7 @@
       "path": "packages/insecure.js"
     },
     {
-      "node_modules": "/C/Users/SOHEB.RAPATI/AppData/Local/.meteor/packages/mongo/1.1.0/npm/node_modules",
+      "node_modules": "/C/Users/Asif/AppData/Local/.meteor/packages/mongo/1.1.0/npm/node_modules",
       "sourceMap": "packages/mongo.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/mongo.js"
@@ -200,6 +200,38 @@
       "sourceMap": "packages/meteor-platform.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/meteor-platform.js"
+    },
+    {
+      "node_modules": "/C/Users/Asif/AppData/Local/.meteor/packages/npm-bcrypt/0.7.8_2/npm/node_modules",
+      "sourceMap": "packages/npm-bcrypt.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/npm-bcrypt.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-base.js"
+    },
+    {
+      "sourceMap": "packages/sha.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/sha.js"
+    },
+    {
+      "sourceMap": "packages/srp.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/srp.js"
+    },
+    {
+      "node_modules": "/C/Users/Asif/AppData/Local/.meteor/packages/email/1.0.6/npm/node_modules",
+      "sourceMap": "packages/email.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/email.js"
+    },
+    {
+      "sourceMap": "packages/accounts-password.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/accounts-password.js"
     },
     {
       "sourceMap": "packages/ian_accounts-ui-bootstrap-3.js.map",
@@ -258,7 +290,7 @@
       "path": "packages/iron_controller.js"
     },
     {
-      "node_modules": "/C/Users/SOHEB.RAPATI/AppData/Local/.meteor/packages/iron_router/1.0.7/npm/node_modules",
+      "node_modules": "/C/Users/Asif/AppData/Local/.meteor/packages/iron_router/1.0.7/npm/node_modules",
       "sourceMap": "packages/iron_router.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/iron_router.js",
@@ -277,6 +309,36 @@
       "path": "packages/fortawesome_fontawesome.js"
     },
     {
+      "sourceMap": "packages/fastclick.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/fastclick.js"
+    },
+    {
+      "sourceMap": "packages/rochal_slimscroll.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/rochal_slimscroll.js"
+    },
+    {
+      "sourceMap": "packages/mrt_jquery-ui.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/mrt_jquery-ui.js"
+    },
+    {
+      "sourceMap": "packages/mizzao_bootboxjs.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/mizzao_bootboxjs.js"
+    },
+    {
+      "sourceMap": "packages/tkornblit_icheck.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/tkornblit_icheck.js"
+    },
+    {
+      "sourceMap": "packages/mrt_jquery-validate.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/mrt_jquery-validate.js"
+    },
+    {
       "sourceMap": "packages/session.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/session.js"
@@ -285,11 +347,6 @@
       "sourceMap": "packages/livedata.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/livedata.js"
-    },
-    {
-      "sourceMap": "packages/accounts-base.js.map",
-      "sourceMapRoot": "packages",
-      "path": "packages/accounts-base.js"
     },
     {
       "path": "packages/global-imports.js"

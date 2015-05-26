@@ -2,6 +2,7 @@
 
 Router = Package['iron:router'].Router;
 RouteController = Package['iron:router'].RouteController;
+Accounts = Package['accounts-base'].Accounts;
 Meteor = Package.meteor.Meteor;
 WebApp = Package.webapp.WebApp;
 main = Package.webapp.main;
@@ -22,7 +23,6 @@ Match = Package.check.Match;
 _ = Package.underscore._;
 Random = Package.random.Random;
 EJSON = Package.ejson.EJSON;
-Accounts = Package['accounts-base'].Accounts;
 Iron = Package['iron:core'].Iron;
 HTML = Package.htmljs.HTML;
 

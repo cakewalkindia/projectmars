@@ -2,25 +2,182 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="082f6a0b-9fc5-43c5-8c04-cade59394e89" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Sencha\Work\projectmars\.meteor\local\build\programs\server\packages\autopublish.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sencha\Work\projectmars\.meteor\local\build\programs\server\packages\autopublish.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sencha\Work\projectmars\.meteor\local\build\programs\web.browser\9e7012475db3a81ae148a5227800a995e7738d4e.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sencha\Work\projectmars\.meteor\local\build\programs\web.browser\9e7012475db3a81ae148a5227800a995e7738d4e.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sencha\Work\projectmars\.meteor\local\build\programs\web.browser\packages\autopublish.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Sencha\Work\projectmars\.meteor\local\build\programs\web.browser\packages\autopublish.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/db/mongod.lock" afterPath="$PROJECT_DIR$/.meteor/local/db/mongod.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/StudyDesign/StudyDesign.css" afterPath="$PROJECT_DIR$/client/StudyDesign/StudyDesign.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Main/Main.html" afterPath="$PROJECT_DIR$/client/Main/Main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/README" afterPath="$PROJECT_DIR$/.meteor/local/build/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/StudyDesign/StudyDesign.html" afterPath="$PROJECT_DIR$/client/StudyDesign/StudyDesign.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/StudyDesign/StudyDesign.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/StudyDesign/StudyDesign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/StudyDesign/StudyDesign.js" afterPath="$PROJECT_DIR$/client/StudyDesign/StudyDesign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections.js" afterPath="$PROJECT_DIR$/lib/collections.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/accounts-base.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/accounts-base.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/accounts-base.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/accounts-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/accounts-base.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/accounts-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/anti_i18n.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/anti_i18n.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/anti_i18n.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/anti_i18n.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autoupdate.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autoupdate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autoupdate.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autoupdate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/base64.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/base64.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/base64.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/base64.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/binary-heap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/binary-heap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-tools.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/boilerplate-generator.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/boilerplate-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.browser.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.browser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.cordova.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.cordova.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/callback-hook.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/callback-hook.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/callback-hook.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/callback-hook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/callback-hook.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/callback-hook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/check.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/check.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/check.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/check.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/check.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/check.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/config.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/iron_layout/default_layout.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/iron_layout/default_layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/deps.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/deps.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/deps.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/deps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/deps.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/deps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/iron_dynamic-template/dynamic_template.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/iron_dynamic-template/dynamic_template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ejson.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ejson.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ejson.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ejson.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ejson.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ejson.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/geojson-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/geojson-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/geojson-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/geojson-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/global-imports.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/global-imports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/global-imports.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/global-imports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/html-tools.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/html-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/htmljs.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/htmljs.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/htmljs.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/htmljs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/htmljs.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/htmljs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ian_accounts-ui-bootstrap-3.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ian_accounts-ui-bootstrap-3.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ian_accounts-ui-bootstrap-3.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ian_accounts-ui-bootstrap-3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ian_accounts-ui-bootstrap-3.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ian_accounts-ui-bootstrap-3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/id-map.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/id-map.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/id-map.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/id-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/id-map.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/id-map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/shell/info.json" afterPath="$PROJECT_DIR$/.meteor/local/shell/info.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/insecure.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/insecure.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/insecure.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/insecure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/insecure.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/insecure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_controller.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_controller.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_controller.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_controller.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_core.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_core.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_core.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_core.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_dynamic-template.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_dynamic-template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_layout.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_layout.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_location.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_location.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_location.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_location.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_middleware-stack.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_middleware-stack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_router.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_url.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/jquery.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/jquery.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/jquery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/jquery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/json.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/json.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/json.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/json.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/launch-screen.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/launch-screen.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/launch-screen.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/launch-screen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/livedata.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/livedata.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/livedata.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/livedata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/livedata.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/livedata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/localstorage.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/localstorage.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/localstorage.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/localstorage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/logging.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/logging.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/logging.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/logging.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/logging.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/logging.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/main.js" afterPath="$PROJECT_DIR$/.meteor/local/build/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor-platform.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor-platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor-platform.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor-platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/mini-files.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/mini-files.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/minimongo.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/minimongo.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/minimongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/minimongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/minimongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/minimongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/npm-shrinkwrap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/observe-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/observe-sequence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/observe-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/observe-sequence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ordered-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ordered-dict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ordered-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ordered-dict.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/program.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/program.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/program.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/program.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/random.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/random.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/random.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/random.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/random.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/random.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-dict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-dict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-var.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-var.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reload.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reload.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reload.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reload.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/retry.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/retry.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/retry.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/retry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/retry.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/retry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/routepolicy.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/routepolicy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/routing.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/routing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/routing.js" afterPath="$PROJECT_DIR$/client/routing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/service-configuration.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/service-configuration.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/service-configuration.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/service-configuration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/service-configuration.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/service-configuration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/session.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/session.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/session.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/session.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/shell-server.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/shell-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars-compiler.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/spacebars.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/spacebars.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/spacebars.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/spacebars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/star.json" afterPath="$PROJECT_DIR$/.meteor/local/build/star.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/stylus.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/stylus.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/stylus.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/stylus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/Main/template.Main.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/Main/template.Main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/StudyDesign/template.StudyDesign.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/StudyDesign/template.StudyDesign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/iron_router/lib/templates.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/iron_router/lib/templates.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/templating.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/templating.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/templating.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/templating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/templating.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/templating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/tracker.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/tracker.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/tracker.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/tracker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/tracker.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/tracker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/twbs_bootstrap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/twbs_bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ui.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ui.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ui.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ui.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/underscore.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/underscore.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/underscore.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/underscore.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/underscore.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp-hashing.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp-hashing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/webapp.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/webapp.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/webapp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/webapp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DocDataNew.iws" />
@@ -42,75 +199,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StudyDesign.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6895943">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudyDesign.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.js">
+      <file leaf-file-name="routing.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/routing.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudyDesign.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Main/Main.css">
+      <file leaf-file-name="Main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Main/Main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="20" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Utils.js">
+      <file leaf-file-name="masterLayout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Layout/masterLayout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="192" column="19" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-                <element signature="e#80#818#0" expanded="false" />
-                <element signature="e#872#994#0" expanded="false" />
-                <element signature="e#1041#1113#0" expanded="false" />
-                <element signature="e#1159#1231#0" expanded="false" />
-                <element signature="e#1279#1463#0" expanded="false" />
-                <element signature="e#1503#2033#0" expanded="false" />
-                <element signature="e#2082#2212#0" expanded="false" />
-                <element signature="e#2257#2502#0" expanded="false" />
-                <element signature="e#2562#2880#0" expanded="false" />
-                <element signature="e#2927#3187#0" expanded="false" />
-                <element signature="e#3238#3487#0" expanded="false" />
-                <element signature="e#3529#3891#0" expanded="false" />
-                <element signature="e#3893#3943#0" expanded="false" />
-                <element signature="e#4342#4542#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-23.23077">
+              <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packages" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.meteor/packages">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.28">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,8 +244,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="CSS File" />
+        <option value="Html5" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -136,7 +260,6 @@
         <option value="$PROJECT_DIR$/client/studyDesign/StudyDesign.css" />
         <option value="$PROJECT_DIR$/client/studyDesign/StudyDesign.js" />
         <option value="$PROJECT_DIR$/client/Main/Main.css" />
-        <option value="$PROJECT_DIR$/client/routing.js" />
         <option value="$PROJECT_DIR$/client/Main/Main.html" />
         <option value="$PROJECT_DIR$/server/smtp.js" />
         <option value="$PROJECT_DIR$/lib/collections.js" />
@@ -146,6 +269,13 @@
         <option value="$PROJECT_DIR$/lib/Utils.js" />
         <option value="$PROJECT_DIR$/client/StudyDesign/StudyDesign.css" />
         <option value="$PROJECT_DIR$/client/StudyDesign/StudyDesign.js" />
+        <option value="$PROJECT_DIR$/client/Layout/masterLayout.html" />
+        <option value="$PROJECT_DIR$/client/Layout/masterLayout.js" />
+        <option value="$PROJECT_DIR$/client/routing.js" />
+        <option value="$PROJECT_DIR$/client/Register/register.html" />
+        <option value="$PROJECT_DIR$/client/login/login.js" />
+        <option value="$PROJECT_DIR$/client/Register/register.js" />
+        <option value="$PROJECT_DIR$/client/login/login.html" />
         <option value="$PROJECT_DIR$/client/StudyDesign/StudyDesign.html" />
       </list>
     </option>
@@ -186,7 +316,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,7 +408,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Register" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocDataNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectmars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocDataNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectmars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocDataNew" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectmars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,6 +482,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -313,6 +497,24 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="276" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="305" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="306" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="981" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="299" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="297" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="299" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="973" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -320,17 +522,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Meteor.Unnamed">
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -427,17 +618,26 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17597471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17597471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5052687" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.4947313" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32756758" sideWeight="0.4947313" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -463,7 +663,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -471,80 +671,7 @@
     <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Main/Main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="192" column="19" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#80#818#0" expanded="false" />
-            <element signature="e#872#994#0" expanded="false" />
-            <element signature="e#1041#1113#0" expanded="false" />
-            <element signature="e#1159#1231#0" expanded="false" />
-            <element signature="e#1279#1463#0" expanded="false" />
-            <element signature="e#1503#2033#0" expanded="false" />
-            <element signature="e#2082#2212#0" expanded="false" />
-            <element signature="e#2257#2502#0" expanded="false" />
-            <element signature="e#2562#2880#0" expanded="false" />
-            <element signature="e#2927#3187#0" expanded="false" />
-            <element signature="e#3238#3487#0" expanded="false" />
-            <element signature="e#3529#3891#0" expanded="false" />
-            <element signature="e#3893#3943#0" expanded="false" />
-            <element signature="e#4342#4542#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/StudyDesign.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,23 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#80#818#0" expanded="false" />
-            <element signature="e#872#994#0" expanded="false" />
-            <element signature="e#1041#1113#0" expanded="false" />
-            <element signature="e#1159#1231#0" expanded="false" />
-            <element signature="e#1279#1463#0" expanded="false" />
-            <element signature="e#1503#2033#0" expanded="false" />
-            <element signature="e#2082#2212#0" expanded="false" />
-            <element signature="e#2257#2502#0" expanded="false" />
-            <element signature="e#2562#2880#0" expanded="false" />
-            <element signature="e#2927#3187#0" expanded="false" />
-            <element signature="e#3238#3487#0" expanded="false" />
-            <element signature="e#3529#3891#0" expanded="false" />
-            <element signature="e#3893#3943#0" expanded="false" />
-            <element signature="e#4342#4542#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,12 +693,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="22" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -596,9 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,9 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,12 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -678,9 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,12 +786,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,12 +836,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -794,9 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,20 +899,6 @@
     <entry file="file://$PROJECT_DIR$/public/Images/contactUs.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/Main/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09010601">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05743243">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/smtp.js">
@@ -868,34 +929,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+    <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35915494">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="192" column="19" selection-start-line="192" selection-start-column="14" selection-end-line="192" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#80#818#0" expanded="false" />
-            <element signature="e#872#994#0" expanded="false" />
-            <element signature="e#1041#1113#0" expanded="false" />
-            <element signature="e#1159#1231#0" expanded="false" />
-            <element signature="e#1279#1463#0" expanded="false" />
-            <element signature="e#1503#2033#0" expanded="false" />
-            <element signature="e#2082#2212#0" expanded="false" />
-            <element signature="e#2257#2502#0" expanded="false" />
-            <element signature="e#2562#2880#0" expanded="false" />
-            <element signature="e#2927#3187#0" expanded="false" />
-            <element signature="e#3238#3487#0" expanded="false" />
-            <element signature="e#3529#3891#0" expanded="false" />
-            <element signature="e#3893#3943#0" expanded="false" />
-            <element signature="e#4342#4542#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.018952062">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -903,38 +940,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6588629">
+          <caret line="188" column="26" selection-start-line="188" selection-start-column="26" selection-end-line="188" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17056856">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Register/register.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Register/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46896553">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3908046">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Layout/masterLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81026787">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3359375">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Main/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.js">
+    <entry file="file://$PROJECT_DIR$/client/Layout/masterLayout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-23.23077">
+          <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.28">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/StudyDesign/StudyDesign.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6895943">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.32922536">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

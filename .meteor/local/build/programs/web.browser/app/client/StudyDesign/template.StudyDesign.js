@@ -2,7 +2,7 @@
 Template.__checkName("StudyDesign");
 Template["StudyDesign"] = new Template("Template.StudyDesign", (function() {
   var view = this;
-  return HTML.DIV({
+  return [ HTML.Raw("<p>Study design template</p>\n    "), HTML.DIV({
     "class": "container"
   }, "\n\n        ", HTML.DIV({
     "class": "panel panel-info",
@@ -33,7 +33,7 @@ Template["StudyDesign"] = new Template("Template.StudyDesign", (function() {
     }, Blaze.View("lookup:count", function() {
       return Spacebars.mustache(view.lookup("count"));
     })), "\n                                "), "\n                            " ];
-  }), "\n                            "), "\n                        "), "\n                    "), "\n\n                    ", HTML.Raw('<div id="sd_circle" class="tab-pane fade in active">\n\n                    </div>'), "\n\n                    ", HTML.Raw('<div id="sd_bar" class="tab-pane fade">\n\n                    </div>'), "\n\n                    ", HTML.Raw('<div id="sd_pie" class="tab-pane fade">\n\n                    </div>'), "\n                "), "\n            "), "\n        "), "\n\n\n\n    ");
+  }), "\n                            "), "\n                        "), "\n                    "), "\n\n                    ", HTML.Raw('<div id="sd_circle" class="tab-pane fade in active">\n\n                    </div>'), "\n\n                    ", HTML.Raw('<div id="sd_bar" class="tab-pane fade">\n\n                    </div>'), "\n\n                    ", HTML.Raw('<div id="sd_pie" class="tab-pane fade">\n\n                    </div>'), "\n                "), "\n            "), "\n        "), "\n\n\n\n    ") ];
 }));
 
 })();

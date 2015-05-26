@@ -11,3 +11,12 @@ twbs:bootstrap
 iron:router
 peernohell:c3
 fortawesome:fontawesome
+fastclick
+rochal:slimscroll
+mrt:jquery-ui
+mizzao:bootboxjs
+tkornblit:icheck
+accounts-base
+accounts-password
+mrt:jquery-validate
+http
