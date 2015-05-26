@@ -1,0 +1,139 @@
+<template name="masterlayout">
+
+    <div class="wrapper">
+
+        <header class="main-header">
+
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <!-- <div class="btn btn-navbar btn-inverse btn-stroke navbar-left glyphicon glyphicon-align-justify" id="navbar-toggle" data-toggle="offcanvas" title="Hide the sidebar"></div> -->
+
+                <!--<ul class="nav navbar-nav">-->
+                    <!--<li>-->
+                        <!--<a href="#" data-toggle="offcanvas" role="button">-->
+                            <!--<span class="glyphicon glyphicon-align-justify"></span>-->
+                        <!--</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+                <a href="#" class="logo">Dre</a>
+                <div id="divClassSelected"  class="navbar-text drug-head" style="align-content: center"></div>
+
+
+
+                <ul class="nav navbar-nav">
+                    <li class="dropdown ">
+                    <a href="#" class="glyphicon glyphicon-folder-open" data-toggle="dropdown" role="menu" ></a>
+
+                    <ul id="ulClasslist" class="dropdown-menu" role="menu" >
+                        <li role="presentation"><a href="#" class="" role="menuitem">AED </a></li>
+                        <li role="presentation"><a href="#" class="" role="menuitem">Adverse Events </a></li>
+                        <li role="presentation"><a href="#" class="" role="menuitem">Alzheimer Disease </a></li>
+
+
+                    </ul>
+                    </li>
+
+                </ul>
+
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                    <!-- User profile-->
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menu" aria-expanded="false">{{currentUser}}    <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#" class="" role="menuitem"><span class ="glyphicon glyphicon-user "></span>  Profie</a></li>
+                            <li><a href="#" id="btnLogout"><span class ="glyphicon glyphicon-log-out "></span> Logout</a></li>
+
+                        </ul>
+                    </li> <!-- User profile ends-->
+                  </ul>
+                </div><!-- navbar-custom-menu -->
+            </nav>
+        </header>
+
+        <!-- =============================================== -->
+
+
+        <!-- Left side column. contains the sidebar -->
+        <aside class="main-sidebar">
+                            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu">
+                    <!-- <li>
+                    <a href="#" data-toggle="offcanvas" role="button">
+                            <span class="glyphicon glyphicon-align-justify"></span>
+                        </a>
+                    </li> -->
+
+                    <!--
+                    <li class="header">MAIN
+                        NAVIGATION
+                    </li>
+
+                  -->
+
+
+
+                  <li class="treeview">
+                      <a href="#" id="aToggle" class="glyphicon glyphicon-align-justify" data-toggle="offcanvas" role="button"> </a>
+
+                  </li>
+
+
+
+                    <li class="treeview">
+                        <a href="{{pathFor 'Main'}}">
+                            <i class="glyphicon glyphicon-home"></i>
+                            <span>Home</span> <i class="fa"></i>
+                        </a>
+
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="glyphicon  glyphicon-compressed"></i>
+                            <span>Studies</span>
+                            <span class="label label-primary pull-right"></span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class="active"><a href="{{pathFor  'StudyDesign'}}"><i class="glyphicon glyphicon-saved"></i> Study List</a></li>
+
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+        <!-- =============================================== -->
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+
+              <!-- <div class="breadcrumb2 ">
+              	<a href="#" class="active">Home</a>
+              	<a href="#">Compare</a>
+              	<a href="#">Order Confirmation</a>
+              	<a href="#">Checkout</a>
+              </div> -->
+            </section>
+
+            <!-- Main body content -->
+            <section class="content">
+
+                {{> yield }}
+
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+    </div>
+    <!-- ./wrapper -->
+
+</template>
