@@ -3,6 +3,7 @@
 accountsUIBootstrap3 = Package['ian:accounts-ui-bootstrap-3'].accountsUIBootstrap3;
 Router = Package['iron:router'].Router;
 RouteController = Package['iron:router'].RouteController;
+HTTP = Package.http.HTTP;
 Meteor = Package.meteor.Meteor;
 WebApp = Package.webapp.WebApp;
 Log = Package.logging.Log;

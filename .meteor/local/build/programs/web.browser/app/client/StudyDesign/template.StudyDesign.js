@@ -33,7 +33,26 @@ Template["StudyDesign"] = new Template("Template.StudyDesign", (function() {
     }, Blaze.View("lookup:count", function() {
       return Spacebars.mustache(view.lookup("count"));
     })), "\n                                "), "\n                            " ];
-  }), "\n                            "), "\n                        "), "\n                    "), "\n\n                    ", HTML.Raw('<div id="sd_circle" class="tab-pane fade in active">\n\n                    </div>'), "\n\n                    ", HTML.Raw('<div id="sd_bar" class="tab-pane fade">\n\n                    </div>'), "\n\n                    ", HTML.Raw('<div id="sd_pie" class="tab-pane fade">\n\n                    </div>'), "\n                "), "\n            "), "\n        "), "\n\n\n\n    ");
+  }), "\n                            "), "\n                        "), "\n                    "), "\n\n                    ", HTML.Raw('<div id="sd_circle" class="tab-pane fade in active">\n\n                    </div>'), "\n\n                    ", HTML.Raw('<div id="sd_bar" class="tab-pane fade">\n\n                    </div>'), "\n\n                    ", HTML.Raw('<div id="sd_pie" class="tab-pane fade">\n\n                    </div>'), "\n                "), "\n            "), "\n        "), "\n\n\n        ", HTML.DIV({
+    "class": "panel panel-info",
+    style: "margin-top: 5px;"
+  }, "\n            ", HTML.Raw('<div class="panel-heading">\n                <h3 class="panel-title">\n                    Client Package FQ</h3>\n            </div>'), "\n            ", HTML.DIV({
+    "class": "panel-body"
+  }, "\n                ", HTML.TABLE({
+    "class": "table table-bordered"
+  }, "\n                    ", HTML.CAPTION("Meteor WebService Demo"), "\n                    ", HTML.THEAD("\n                    ", HTML.TR("\n                        ", HTML.TH("ClientId"), "\n                        ", HTML.TH("ClientName"), "\n                        ", HTML.TH("PackageId"), "\n                        ", HTML.TH("PackageName"), "\n                        ", HTML.Comment("<th>FrameQuestionId</th>"), "\n                        ", HTML.Comment("<th>FrameQuestionName</th>"), "\n                    "), "\n                    "), "\n                    ", HTML.TBODY("\n                    ", Blaze.Each(function() {
+    return Spacebars.call(view.lookup("getData"));
+  }, function() {
+    return [ "\n                        ", HTML.TR("\n                            ", HTML.TD(Blaze.View("lookup:ClientId", function() {
+      return Spacebars.mustache(view.lookup("ClientId"));
+    })), "\n                            ", HTML.TD(Blaze.View("lookup:ClientName", function() {
+      return Spacebars.mustache(view.lookup("ClientName"));
+    })), "\n                            ", HTML.TD(Blaze.View("lookup:PackageID", function() {
+      return Spacebars.mustache(view.lookup("PackageID"));
+    })), "\n                            ", HTML.TD(Blaze.View("lookup:PackageName", function() {
+      return Spacebars.mustache(view.lookup("PackageName"));
+    })), "\n                            ", HTML.Comment("<td>{{FramedQuestionID}}</td>"), "\n                            ", HTML.Comment("<td>{{FramedQuestion}}</td>"), "\n                        "), "\n\n\n                    " ];
+  }), "\n\n                    "), "\n                "), "\n            "), "\n        "), "\n\n    ");
 }));
 
 })();

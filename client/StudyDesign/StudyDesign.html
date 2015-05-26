@@ -60,6 +60,42 @@
         </div>
 
 
+        <div class="panel panel-info" style="margin-top: 5px;">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Client Package FQ</h3>
+            </div>
+            <div class="panel-body">
+                <table class="table table-bordered">
+                    <caption>Meteor WebService Demo</caption>
+                    <thead>
+                    <tr>
+                        <th>ClientId</th>
+                        <th>ClientName</th>
+                        <th>PackageId</th>
+                        <th>PackageName</th>
+                        <!--<th>FrameQuestionId</th>-->
+                        <!--<th>FrameQuestionName</th>-->
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{#each getData}}
+                        <tr>
+                            <td>{{ClientId}}</td>
+                            <td>{{ClientName}}</td>
+                            <td>{{PackageID}}</td>
+                            <td>{{PackageName}}</td>
+                            <!--<td>{{FramedQuestionID}}</td>-->
+                            <!--<td>{{FramedQuestion}}</td>-->
+                        </tr>
+
+
+                    {{/each}}
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
     </div>
 </template>

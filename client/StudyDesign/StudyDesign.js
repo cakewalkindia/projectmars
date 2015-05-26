@@ -7,7 +7,7 @@ Session.setDefault('TaskId','3323');
 noteSubscription=Meteor.subscribe('StudyData', Session.get('TaskId'));
 
 Session.setDefault("StudyCount", 0);
-
+Session.setDefault("ClientPackageFQs", []);
 
 generateDonut = function(value){
     var dataArrs = [];
@@ -147,6 +147,30 @@ Template.StudyDesign.helpers({
             return "rowColor";
         }
 
+    },
+
+    'getData': function(){
+        //var obj=[];
+        //
+        //Meteor.http.get('http://extractservicestraining.doctorevidence.com/getclientpackagefq', function (err, res) {
+        //    obj = JSON.parse(res.content);
+        //
+        //    var obj1 =[];
+        //
+        //    for (var i = 0; i < 5; i++) {
+        //        obj1.push(obj[i].ClientName);
+        //    }
+        //    return fut.return(obj1);
+        //});
+        //return fut.wait();
+
+        Meteor.call("getAddress",$("#string").val(),function(error,address){
+            // console.log(error);
+            // console.log(address);
+            Session.set("ClientPackageFQs",address);
+        });
+
+        return Session.get("ClientPackageFQs");
     }
 });
 

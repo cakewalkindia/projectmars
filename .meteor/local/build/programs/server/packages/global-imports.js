@@ -2,6 +2,8 @@
 
 Router = Package['iron:router'].Router;
 RouteController = Package['iron:router'].RouteController;
+HTTP = Package.http.HTTP;
+HTTPInternals = Package.http.HTTPInternals;
 Meteor = Package.meteor.Meteor;
 WebApp = Package.webapp.WebApp;
 main = Package.webapp.main;

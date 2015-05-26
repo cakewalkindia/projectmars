@@ -541,6 +541,28 @@
       "hash": "8cd2558178cb5dc3b19ea38fb6247e48cc021ee2"
     },
     {
+      "path": "packages/url.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/url.js?2312d739008b2ffa52f13c77c5d6fc59c9e17d56",
+      "sourceMap": "packages/url.js.map",
+      "sourceMapUrl": "/packages/2312d739008b2ffa52f13c77c5d6fc59c9e17d56.map",
+      "size": 6642,
+      "hash": "2312d739008b2ffa52f13c77c5d6fc59c9e17d56"
+    },
+    {
+      "path": "packages/http.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/http.js?c3c7d0da66f683af57294173733637845f39253a",
+      "sourceMap": "packages/http.js.map",
+      "sourceMapUrl": "/packages/c3c7d0da66f683af57294173733637845f39253a.map",
+      "size": 37780,
+      "hash": "c3c7d0da66f683af57294173733637845f39253a"
+    },
+    {
       "path": "packages/webapp.js",
       "where": "client",
       "type": "js",
@@ -578,9 +600,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/global-imports.js?4e3724c2aac8cac2905c072da80f5c94e071be47",
-      "size": 980,
-      "hash": "4e3724c2aac8cac2905c072da80f5c94e071be47"
+      "url": "/packages/global-imports.js?b21e79cc6224bb43c578b749848e5052600bc463",
+      "size": 1006,
+      "hash": "b21e79cc6224bb43c578b749848e5052600bc463"
     },
     {
       "path": "app/client/Main/template.Main.js",
@@ -596,9 +618,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyDesign/template.StudyDesign.js?a44c9867ce99bf62d7cda308c6335b844ff0e407",
-      "size": 3128,
-      "hash": "a44c9867ce99bf62d7cda308c6335b844ff0e407"
+      "url": "/client/StudyDesign/template.StudyDesign.js?ee3cf2d2288c8511eee146eeed351c0c6c9a919f",
+      "size": 5211,
+      "hash": "ee3cf2d2288c8511eee146eeed351c0c6c9a919f"
     },
     {
       "path": "app/lib/ExtractionEngine.js",
@@ -632,9 +654,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyDesign/StudyDesign.js?f3dfad856d657355de1a0b9b4563450448643402",
-      "size": 4377,
-      "hash": "f3dfad856d657355de1a0b9b4563450448643402"
+      "url": "/client/StudyDesign/StudyDesign.js?be204d53cd369da4b4a93358719cfb70a1196571",
+      "size": 5157,
+      "hash": "be204d53cd369da4b4a93358719cfb70a1196571"
     },
     {
       "path": "app/client/routing.js",

@@ -277,6 +277,17 @@
       "path": "packages/fortawesome_fontawesome.js"
     },
     {
+      "sourceMap": "packages/url.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/url.js"
+    },
+    {
+      "node_modules": "/C/Users/SOHEB.RAPATI/AppData/Local/.meteor/packages/http/1.1.0/npm/node_modules",
+      "sourceMap": "packages/http.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/http.js"
+    },
+    {
       "sourceMap": "packages/session.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/session.js"
