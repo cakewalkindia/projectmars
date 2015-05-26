@@ -309,6 +309,7 @@
       "path": "packages/fortawesome_fontawesome.js"
     },
     {
+<<<<<<< HEAD
       "sourceMap": "packages/fastclick.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/fastclick.js"
@@ -337,6 +338,17 @@
       "sourceMap": "packages/mrt_jquery-validate.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/mrt_jquery-validate.js"
+=======
+      "sourceMap": "packages/url.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/url.js"
+    },
+    {
+      "node_modules": "/C/Users/SOHEB.RAPATI/AppData/Local/.meteor/packages/http/1.1.0/npm/node_modules",
+      "sourceMap": "packages/http.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/http.js"
+>>>>>>> e00fce80a3852f59d3a8a93e07b7092369fe7ab7
     },
     {
       "sourceMap": "packages/session.js.map",
