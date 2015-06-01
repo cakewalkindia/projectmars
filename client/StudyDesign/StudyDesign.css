@@ -16,7 +16,7 @@
 }
 
 .rowColor{
-    background-color: rgba(80,148,224,.1);
+    background-color: rgba(123, 169, 221, 0);
 }
 
 .sdFont{
@@ -24,3 +24,49 @@
     font-size: 13px;
     font-weight: 700;
 }
+
+.font-icon-color{
+    color:#FFFFFF !important;
+}
+
+.box-body-custom{
+    position: relative;
+    /*background: #f9f9f9;*/
+    min-height: 60px;
+    /*margin: 0 auto 24px;*/
+    /*border: 1px solid #e2e1e1;*/
+    /*-moz-box-shadow: 1px 4px 8px -3px #666;*/
+    /*-webkit-box-shadow: 1px 4px 8px -3px #666;*/
+    /*box-shadow: 1px 4px 8px -3px #666;*/
+}
+
+
+.sd-nav-bar{
+    margin-right: 15px;
+}
+
+.alter-row tr:nth-child(even){
+    background-color: rgba(123, 169, 221, 0.33);
+}
+.alter-row tr:nth-child(odd){
+    background-color: #ffffff;
+}
+
+
+/*@media (min-width: 768px) {*/
+    /*.alter-row tr:nth-child(4n) {*/
+        /*background: #dcdcdc;*/
+    /*}*/
+    /*.alter-row tr:nth-child(4n-1) {*/
+        /*background: #aaaaaa;*/
+    /*}*/
+/*}*/
+
+/*@media (min-width: 992px) {*/
+    /*.alter-row tr:nth-child(4n) {*/
+        /*background: #dcdcdc;*/
+    /*}*/
+    /*.alter-row tr:nth-child(4n-1)  {*/
+        /*background: #aaaaaa;*/
+    /*}*/
+/*}*/

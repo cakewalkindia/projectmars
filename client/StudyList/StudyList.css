@@ -1,0 +1,150 @@
+.table-hover tr:hover
+{
+
+    background-color: rgba(123, 169, 221, 0.33);
+
+}
+
+.widget.full-page {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.widget {
+    position: relative;
+    background: #f9f9f9;
+    min-height: 60px;
+    margin: 0 auto 24px;
+    border: 1px solid #e2e1e1;
+    -moz-box-shadow: 1px 4px 8px -3px #666;
+    -webkit-box-shadow: 1px 4px 8px -3px #666;
+    box-shadow: 1px 4px 8px -3px #666;
+}
+
+
+
+.paddingLeft
+{
+    margin-left: 5px !important;
+}
+
+
+
+.widget.full-page .widget-header {
+    top: 0;
+}
+
+
+
+button.ColVis_Button {
+    height: 30px;
+    padding: 3px 8px;
+}
+
+button.ColVis_Button, ul.ColVis_collection li {
+    position: relative;
+    float: left;
+    margin-right: 3px;
+    padding: 5px 8px;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-size: 0.88em;
+    color: black !important;
+    white-space: nowrap;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 1px 1px 3px #ccc;
+    -moz-box-shadow: 1px 1px 3px #ccc;
+    -ms-box-shadow: 1px 1px 3px #ccc;
+    -o-box-shadow: 1px 1px 3px #ccc;
+    box-shadow: 1px 1px 3px #ccc;
+    background: #ffffff;
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 89%,#f9f9f9 100%);
+    background: -moz-linear-gradient(top, #ffffff 0%,#f3f3f3 89%,#f9f9f9 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 89%,#f9f9f9 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 89%,#f9f9f9 100%);
+    background: linear-gradient(top, #ffffff 0%,#f3f3f3 89%,#f9f9f9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 );
+}
+
+.datatable-div .datatable-search {
+    width: 35%;
+    margin-bottom: 8px;
+    float: right;
+}
+
+.form-group .form-control-feedback.fa, .input-group .form-control-feedback.fa {
+    line-height: 34px;
+    opacity: .7;
+}
+
+/*combolist*/
+body ul.ColVis_collection {
+    min-width: 200px;
+    width: 200px;
+    max-height: 350px;
+    padding: 0;
+    border: 1px solid #FFF;
+    overflow-y: auto;
+    background-color: #f3f3f3;
+    border-color: #efefef;
+}
+ul.ColVis_collection {
+    list-style: none;
+    width: 150px;
+    padding: 8px 8px 4px 8px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: #f3f3f3;
+    background-color: rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    z-index: 2002;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+ul.ColVis_collection li {
+    text-align: left;
+}
+
+ul.ColVis_collection li {
+    position: relative;
+    height: auto;
+    left: 0;
+    right: 0;
+    padding: 0.5em;
+    display: block;
+    float: none;
+    margin-bottom: 4px;
+    -webkit-box-shadow: 1px 1px 3px #999;
+    -moz-box-shadow: 1px 1px 3px #999;
+    -ms-box-shadow: 1px 1px 3px #999;
+    -o-box-shadow: 1px 1px 3px #999;
+    box-shadow: 1px 1px 3px #999;
+}
+
+
+.hiddenObj{
+    display: none;
+}
+
+
+.table-hover .tr-alter-row:nth-child(even){
+    background-color: #ffffff;
+
+}
+.table-hover .tr-alter-row:nth-child(odd){
+    background-color: rgba(66,66,66,.04);
+}
+
+.td-align{
+    vertical-align: middle !important;
+}

@@ -1,100 +1,99 @@
 <template name="StudyDesign">
-    <div class="container">
 
-        <div class="panel panel-info" style="margin-top: 5px;">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <i class="fa fa-list-ol"></i> &nbsp;Study Designs</h3>
-                <ul class="nav nav-pills navbar-right" style="  margin-top: -28px;" >
-                    <li>
-                        <a data-toggle="tab" href="#sd_list">
-                            <i class="fa fa-list-ul"></i>
-                        </a>
-                    </li>
-                    <li class="active">
-                        <a data-toggle="tab" href="#sd_circle">
-                            <i class="fa fa-circle-o"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-toggle="tab" href="#sd_bar">
-                            <i class="fa fa-bar-chart fa-6"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-toggle="tab" href="#sd_pie">
-                            <i class="fa fa-pie-chart"></i>
-                        </a>
-                    </li>
-                </ul>
+        <div class="row">
+
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+
+                <div class="box" id="set-general-scope">
+                    <div class="box-header widget-header" >
+                        <h4 class="box-title " style="font-size: 16px;">
+                            <i class="title-icon fa fa-question"></i>
+                            <b>General Scope</b>
+                        </h4>
+
+                        <div class="pull-right">
+                            <i class="fa fa-caret-down "></i>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <p>What are benefits and harms of complementary-alternative therapies for adults with Alzheimer's disease?</p>
+                    </div>
+                </div>
+
+
+
+                <div class="box" id="study-set-designs">
+                    <div class="box-header widget-header" >
+                        <h4 class="box-title " style="font-size: 16px;">
+                            <i class="title-icon fa fa-list-ol"></i>
+                            <b>Study Designs</b>
+                        </h4>
+
+                        <div class="pull-right">
+                            <i class="fa fa-caret-down "></i>
+                        </div>
+
+                        <div class="nav nav-pills pull-right btn-group sd-nav-bar" data-toggle="buttons" > <!--style="  margin-top: -28px;"-->
+                            <a class="btn btn-xs btn-primary" data-toggle="tab" href="#sd_list">
+                                <i class="fa fa-list-ul font-icon-color"></i>
+                            </a>
+
+                            <a class="btn btn-xs btn-primary active" data-toggle="tab" href="#sd_circle">
+                                <i class="fa fa-circle-o font-icon-color"></i>
+                            </a>
+
+                            <a class="btn btn-xs btn-primary" data-toggle="tab" href="#sd_bar">
+                                <i class="fa fa-bar-chart fa-6 font-icon-color"></i>
+                            </a>
+
+                            <a class="btn btn-xs btn-primary" data-toggle="tab" href="#sd_pie">
+                                <i class="fa fa-pie-chart font-icon-color"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-body tab-content" style="padding: 0px;">
+                        <!--<div class="tab-content" >-->
+                            <div id="sd_list" class="tab-pane fade in ">
+                                <table class="table alter-row" style="margin-bottom: 0px !important;">
+                                    <tbody>
+                                    {{#each getDesignData}}
+                                        <tr>  <!--class={{setRowColor}}-->
+                                            <td class="col-sm-3 studyName sdFont">{{value}}</td>
+                                            <td class="studyCount">{{count}}</td>
+                                        </tr>
+                                    {{/each}}
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div id="sd_circle" class="tab-pane fade active">
+
+                            </div>
+
+                            <div id="sd_bar" class="tab-pane fade">
+
+                            </div>
+
+                            <div id="sd_pie" class="tab-pane fade">
+
+                            </div>
+                        <!--</div>-->
+                    </div>
+                </div>
             </div>
-            <div class="panel-body">
-                <div class="tab-content" style="margin-top: 40px;">
-                    <div id="sd_list" class="tab-pane fade ">
-                        <table class="table studyDesignDataTable">
-                            <tbody>
-                            {{#each getDesignData}}
-                                <tr class={{setRowColor}}>
-                                    <td class="col-sm-3 studyName sdFont">{{value}}</td>
-                                    <td class="studyCount">{{count}}</td>
-                                </tr>
-                            {{/each}}
-                            </tbody>
-                        </table>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <div class="box">
+                    <div class="box-header widget-header" >
+                        <h4 class="box-title " style="font-size: 16px;">
+                            <i class="title-icon fa fa-book"></i><b>Contents</b></h4>
                     </div>
-
-                    <div id="sd_circle" class="tab-pane fade in active">
-
-                    </div>
-
-                    <div id="sd_bar" class="tab-pane fade">
-
-                    </div>
-
-                    <div id="sd_pie" class="tab-pane fade">
-
+                    <div class="box-body">
+                        <div class="list-group">
+                            <a href="#set-general-scope" class="list-group-item"><i class="title-icon fa fa-question"></i><b>General Scope</b></a>
+                            <a href="#study-set-designs" class="list-group-item"><i class="title-icon fa fa-list-ol"></i><b>Study Designs</b></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="panel panel-info" style="margin-top: 5px;">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    Client Package FQ</h3>
-            </div>
-            <div class="panel-body">
-                <table class="table table-bordered">
-                    <caption>Meteor WebService Demo</caption>
-                    <thead>
-                    <tr>
-                        <th>ClientId</th>
-                        <th>ClientName</th>
-                        <th>PackageId</th>
-                        <th>PackageName</th>
-                        <!--<th>FrameQuestionId</th>-->
-                        <!--<th>FrameQuestionName</th>-->
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {{#each getData}}
-                        <tr>
-                            <td>{{ClientId}}</td>
-                            <td>{{ClientName}}</td>
-                            <td>{{PackageID}}</td>
-                            <td>{{PackageName}}</td>
-                            <!--<td>{{FramedQuestionID}}</td>-->
-                            <!--<td>{{FramedQuestion}}</td>-->
-                        </tr>
-
-
-                    {{/each}}
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-    </div>
 </template>

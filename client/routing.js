@@ -34,7 +34,8 @@ Router.map(function () {
 
 
         this.route('Main' ,{path : '/'}  );
-        this.route('StudyDesign');
+        this.route('StudyList');
+        this.route('StudyDetail');
         this.route('register'  , {
             layoutTemplate : ''
 

@@ -5,6 +5,7 @@ Router = Package['iron:router'].Router;
 RouteController = Package['iron:router'].RouteController;
 FastClick = Package.fastclick.FastClick;
 Accounts = Package['accounts-base'].Accounts;
+HTTP = Package.http.HTTP;
 Meteor = Package.meteor.Meteor;
 WebApp = Package.webapp.WebApp;
 Log = Package.logging.Log;

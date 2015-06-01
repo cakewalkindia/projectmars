@@ -651,6 +651,28 @@
       "hash": "9ca36d192b1dca6758430d61ffdcbdde6233c7a6"
     },
     {
+      "path": "packages/url.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/url.js?2312d739008b2ffa52f13c77c5d6fc59c9e17d56",
+      "sourceMap": "packages/url.js.map",
+      "sourceMapUrl": "/packages/2312d739008b2ffa52f13c77c5d6fc59c9e17d56.map",
+      "size": 6642,
+      "hash": "2312d739008b2ffa52f13c77c5d6fc59c9e17d56"
+    },
+    {
+      "path": "packages/http.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/http.js?c3c7d0da66f683af57294173733637845f39253a",
+      "sourceMap": "packages/http.js.map",
+      "sourceMapUrl": "/packages/c3c7d0da66f683af57294173733637845f39253a.map",
+      "size": 37780,
+      "hash": "c3c7d0da66f683af57294173733637845f39253a"
+    },
+    {
       "path": "packages/webapp.js",
       "where": "client",
       "type": "js",
@@ -688,27 +710,27 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/global-imports.js?3322d829060676315407d1ae45dc3384bd9b78b6",
-      "size": 1021,
-      "hash": "3322d829060676315407d1ae45dc3384bd9b78b6"
+      "url": "/packages/global-imports.js?3ec77f3f7514b0124e03b5b8b16566861f1232cf",
+      "size": 1047,
+      "hash": "3ec77f3f7514b0124e03b5b8b16566861f1232cf"
     },
     {
       "path": "app/client/Layout/template.masterLayout.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/Layout/template.masterLayout.js?ea9468d33c7810b975b5151d3b03af6c676bc1d5",
-      "size": 7002,
-      "hash": "ea9468d33c7810b975b5151d3b03af6c676bc1d5"
+      "url": "/client/Layout/template.masterLayout.js?ecb3731d9433daaf4eba12bc92bd96a667cee3bb",
+      "size": 8947,
+      "hash": "ecb3731d9433daaf4eba12bc92bd96a667cee3bb"
     },
     {
       "path": "app/client/Main/template.Main.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/Main/template.Main.js?6b1a03a5ef318d30e923062477cecc5d71f2f2d0",
-      "size": 179,
-      "hash": "6b1a03a5ef318d30e923062477cecc5d71f2f2d0"
+      "url": "/client/Main/template.Main.js?0b27b88150e20f9bfc12a10d7ba32cb249b33285",
+      "size": 201,
+      "hash": "0b27b88150e20f9bfc12a10d7ba32cb249b33285"
     },
     {
       "path": "app/client/Register/template.register.js",
@@ -724,9 +746,27 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyDesign/template.StudyDesign.js?a99a9dd5e703832ba695e7c9a9723ba0d464af12",
-      "size": 3180,
-      "hash": "a99a9dd5e703832ba695e7c9a9723ba0d464af12"
+      "url": "/client/StudyDesign/template.StudyDesign.js?16da535d7cc51219b77fbdafbead9ec73a30a6a7",
+      "size": 5411,
+      "hash": "16da535d7cc51219b77fbdafbead9ec73a30a6a7"
+    },
+    {
+      "path": "app/client/StudyDetail/template.StudyDetail.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/StudyDetail/template.StudyDetail.js?99d6591942396c3505183260e560e2efa0dd0974",
+      "size": 94918,
+      "hash": "99d6591942396c3505183260e560e2efa0dd0974"
+    },
+    {
+      "path": "app/client/StudyList/template.StudyList.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/StudyList/template.StudyList.js?506e9d851f0b88848e6efdcdd9b4359319a41833",
+      "size": 10101,
+      "hash": "506e9d851f0b88848e6efdcdd9b4359319a41833"
     },
     {
       "path": "app/client/login/template.login.js",
@@ -832,9 +872,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/Layout/masterLayout.js?e976b813039a9791da4db2890b8bb3217887d35f",
-      "size": 1986,
-      "hash": "e976b813039a9791da4db2890b8bb3217887d35f"
+      "url": "/client/Layout/masterLayout.js?a16b2ceec82b66145cde4f54c824509a4533a1e8",
+      "size": 3329,
+      "hash": "a16b2ceec82b66145cde4f54c824509a4533a1e8"
     },
     {
       "path": "app/client/Register/register.js",
@@ -850,9 +890,27 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyDesign/StudyDesign.js?f3dfad856d657355de1a0b9b4563450448643402",
-      "size": 4377,
-      "hash": "f3dfad856d657355de1a0b9b4563450448643402"
+      "url": "/client/StudyDesign/StudyDesign.js?86e3110b9cfc31cc14c44482af4ec684f3dfd99f",
+      "size": 6961,
+      "hash": "86e3110b9cfc31cc14c44482af4ec684f3dfd99f"
+    },
+    {
+      "path": "app/client/StudyDetail/StudyDetail.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/StudyDetail/StudyDetail.js?03928ecc8ba1227087f2c9c562c388bd28c09bf0",
+      "size": 69,
+      "hash": "03928ecc8ba1227087f2c9c562c388bd28c09bf0"
+    },
+    {
+      "path": "app/client/StudyList/StudyList.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/StudyList/StudyList.js?362c7907cc8f378289fe4b09e0e9691d13f5820f",
+      "size": 1315,
+      "hash": "362c7907cc8f378289fe4b09e0e9691d13f5820f"
     },
     {
       "path": "app/client/login/login.js",
@@ -868,9 +926,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/routing.js?04f5cc07ddd551216713a227a687bb705c5dd1c2",
-      "size": 825,
-      "hash": "04f5cc07ddd551216713a227a687bb705c5dd1c2"
+      "url": "/client/routing.js?3e4568c51635894205b89824acd6e413d5fcbcd6",
+      "size": 858,
+      "hash": "3e4568c51635894205b89824acd6e413d5fcbcd6"
     },
     {
       "path": "packages/service-configuration.js",
@@ -884,15 +942,15 @@
       "hash": "262da6fb1e9c97be84333c429c9a2929c80f8e3b"
     },
     {
-      "path": "631712d02de79815834d40b9a1105f1895d22425.css",
+      "path": "79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/631712d02de79815834d40b9a1105f1895d22425.css",
-      "sourceMap": "631712d02de79815834d40b9a1105f1895d22425.css.map",
-      "sourceMapUrl": "/631712d02de79815834d40b9a1105f1895d22425.map",
-      "size": 861711,
-      "hash": "631712d02de79815834d40b9a1105f1895d22425"
+      "url": "/79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f.css",
+      "sourceMap": "79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f.css.map",
+      "sourceMapUrl": "/79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f.map",
+      "size": 888839,
+      "hash": "79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f"
     },
     {
       "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
