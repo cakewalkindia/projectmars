@@ -175,11 +175,11 @@ $(function () {
   }
 
   //Activate Bootstrap tooltip
-  if (o.enableBSToppltip) {
-    $('body').tooltip({
-      selector: o.BSTooltipSelector
-    });
-  }
+  // if (o.enableBSToppltip) {
+  //   $('body').tooltip({
+  //     selector: o.BSTooltipSelector
+  //   });
+  // }
 
   //Activate fast click
   if (o.enableFastclick && typeof FastClick != 'undefined') {

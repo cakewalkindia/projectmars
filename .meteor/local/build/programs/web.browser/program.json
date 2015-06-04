@@ -719,9 +719,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/Layout/template.masterLayout.js?ecb3731d9433daaf4eba12bc92bd96a667cee3bb",
-      "size": 8947,
-      "hash": "ecb3731d9433daaf4eba12bc92bd96a667cee3bb"
+      "url": "/client/Layout/template.masterLayout.js?d134c94716fbf85267d72bbe561ead0cef96a87f",
+      "size": 9119,
+      "hash": "d134c94716fbf85267d72bbe561ead0cef96a87f"
     },
     {
       "path": "app/client/Main/template.Main.js",
@@ -841,13 +841,22 @@
       "hash": "b546b40fce769aa7e83c00bd3cf740c98d43ddf8"
     },
     {
+      "path": "app/client/adminLTE/bootstrap/js/respond.min.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/adminLTE/bootstrap/js/respond.min.js?be59683775624888b974d817abd4478719b1da19",
+      "size": 4397,
+      "hash": "be59683775624888b974d817abd4478719b1da19"
+    },
+    {
       "path": "app/client/adminLTE/dist/js/app.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/adminLTE/dist/js/app.js?84f5e64e5f8168ee21dbe144f326d2440df523de",
-      "size": 15552,
-      "hash": "84f5e64e5f8168ee21dbe144f326d2440df523de"
+      "url": "/client/adminLTE/dist/js/app.js?8fc5a98ec149e4ec3fa5e816df6a062bec423621",
+      "size": 15567,
+      "hash": "8fc5a98ec149e4ec3fa5e816df6a062bec423621"
     },
     {
       "path": "app/client/adminLTE/dist/js/app.min.js",
