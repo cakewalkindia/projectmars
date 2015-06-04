@@ -350,6 +350,11 @@
       "path": "packages/http.js"
     },
     {
+      "sourceMap": "packages/mrt_datatables-bootstrap3.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/mrt_datatables-bootstrap3.js"
+    },
+    {
       "sourceMap": "packages/session.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/session.js"
@@ -375,7 +380,16 @@
       "path": "app/server/AllServices.js"
     },
     {
+      "path": "app/server/FQs.js"
+    },
+    {
       "path": "app/server/StudyDesign.js"
+    },
+    {
+      "path": "app/server/clientBlock.js"
+    },
+    {
+      "path": "app/server/packageName.js"
     },
     {
       "path": "app/server/smtp.js"

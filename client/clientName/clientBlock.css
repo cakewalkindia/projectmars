@@ -1,0 +1,258 @@
+.bg-aqua, .callout.callout-info, .alert-info, .label-info, .modal-info .modal-body {
+    background-color: darkorchid !important;
+}
+
+.bg-yellow, .callout.callout-warning, .alert-warning, .label-waring, .modal-warning .modal-body {
+    background-color: #525C65 !important;
+
+}
+
+.bg-red, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
+    background-color: #dd4b39 !important;
+}
+
+.bg-black, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
+    background-color: #404040  !important;
+}
+
+.bg-blue, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
+    background-color: #0066CC  !important;
+}
+
+.bg-purple, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
+    background-color: #9370DB  !important;
+}
+
+.bg-cardetBlue, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
+    background-color: #53868B  !important;
+}
+
+.bg-canvas, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
+    background-color: #9D8851  !important;
+}
+
+#imgLoading{
+    /*width:500px;*/
+    /*height:500px;*/
+    display:block;
+    /* For vertical center - margin: 0 auto;
+       For horizontal center - margin: auto 0px;*/
+    margin: auto auto;
+    margin-top:150px;
+}
+
+.blockFontColor{
+    color:white !important;
+}
+
+.counterBackColor
+{
+    background: rgba(0,0,0,0.1);
+
+}
+
+
+
+.rowWidthClient
+{
+    width: 370px !important;
+}
+
+.padding1
+{
+    padding-right: 4px !important;
+}
+
+@media all and (min-width: 300px)  {
+    .font{
+        font-size: 14px !important;
+    }
+}
+
+.small-box {
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.small-box>.inner {
+    padding: 10px;
+}
+
+.small-box .icon {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 90px;
+    color: rgba(0,0,0,0.15);
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.small-box>.small-box-footer {
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    color: rgba(255,255,255,0.8);
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+
+.small-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.clientName
+{
+    font-size: 20px !important;
+    margin-top: -9px !important;
+}
+
+.clientNameLength
+{
+    white-space: nowrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+/*line chart*/
+
+.progress.xs, .progress-xs, .progress.xs .progress-bar, .progress-xs .progress-bar {
+    border-radius: 1px;
+}
+
+.progress.xs, .progress-xs {
+    height: 3px;
+}
+
+.progress, .progress>.progress-bar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.progress-bar-green, .progress-bar-success {
+    background-color: greenyellow;
+
+
+}
+
+.progress-bar-red, .progress-bar-success {
+    background-color: #dd4b39;
+}
+
+.progress-bar-yellow, .progress-bar-success {
+    background: rgb(157, 138, 199);
+}
+
+
+
+/*//line chart 2*/
+
+.progress.sm, .progress-sm, .progress.sm .progress-bar, .progress-sm .progress-bar {
+    border-radius: 1px;
+}
+
+.progress.sm, .progress-sm {
+    height: 5px;
+}
+
+.progress-bar-mdClient
+{
+    height: 16px;
+    margin-left: 0px;
+
+
+}
+
+.progress, .progress>.progress-bar, .progress .progress-bar, .progress>.progress-bar .progress-bar {
+    border-radius: 1px;
+}
+
+.progress, .progress>.progress-bar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    text-align:center;
+
+
+}
+
+.progress-group {
+    font-size: 12px;
+
+}
+
+.progress-group .progress-number {
+    float: right;
+}
+
+.progress-bar-aqua, .progress-bar-info {
+    background-color: #74BBFB;
+}
+
+.progress-bar-InProgress, .progress-bar-info {
+    background-color: #9898E6;
+}
+
+.progress-bar-completed, .progress-bar-info {
+    background-color: #5DC983;
+
+}
+
+
+.progress-textClient
+{
+    padding-left: 2px;
+    float: left;
+}
+
+.progress-value {
+    position:absolute;
+    right:0;
+    left:0;
+    color: dimgray !important;
+    font-size: 10px;
+}
+
+.progress-valueClient {
+    position:absolute;
+    right:0;
+    left:0;
+    color: dimgray !important;
+    font-size: 10px;
+}
+
+
+
+/*pie chart*/
+

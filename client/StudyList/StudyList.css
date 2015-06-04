@@ -1,8 +1,8 @@
 .table-hover tr:hover
 {
 
-    background-color: rgba(123, 169, 221, 0.33);
-
+    /*background-color: rgba(123, 169, 221, 0.33);*/
+    background-color: rgba(123, 169, 221, 0.33) !important;
 }
 
 .widget.full-page {
@@ -137,14 +137,20 @@ ul.ColVis_collection li {
 }
 
 
-.table-hover .tr-alter-row:nth-child(even){
-    background-color: #ffffff;
+/*.table-hover .tr-alter-row:nth-child(even){*/
+    /*background-color: #ffffff;*/
 
-}
-.table-hover .tr-alter-row:nth-child(odd){
-    background-color: rgba(66,66,66,.04);
-}
+/*}*/
+/*.table-hover .tr-alter-row:nth-child(odd){*/
+    /*background-color: rgba(66,66,66,.04);*/
+/*}*/
 
 .td-align{
     vertical-align: middle !important;
 }
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.packageName
+{
+    font-size: 20px !important;
+    margin-top: -9px !important;
+}
+
+
+.packageNameLength
+{
+    /*white-space: nowrap;*/
+    /*padding-left: 2px;*/
+    /*width: 17em;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+
+    white-space: nowrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bg-packages, .callout.callout-warning, .alert-warning, .label-waring, .modal-warning .modal-body {
+    background-color: #816687 !important;
+
+}
+
+.rowWidthPackage
+{
+    width: 370px !important;
+}
+
+.progress-bar-md
+{
+    height: 11px;
+    margin-left: 0px;
+
+}

@@ -1,0 +1,107 @@
+<template name="packageName">
+{{#if dataLoadingPackage}}
+    <div class="container-fluid" style="margin-top: 10px;">
+        <div class="row">
+
+            <!--serach box-->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="form-group has-feedback pull-left" style="margin-top: 10px;margin-right: 29px;">
+
+                    <input id="txtSearchPackage" type="text" class="form-control textSearchPackage" style="width: 450px;  margin-top: 1px;height: 40px;font-size: 20px;" placeholder="search here"/>
+                    <span class="glyphicon glyphicon-search form-control-feedback" style="margin-top: 5px;margin-right: 6px; font-size: 18px;"></span>
+
+                    <span id="noMatchPackage" style="display:none;">&nbsp; &nbsp;  <h4>Sorry..! No match found. <span class="badge" style="font-size: 15px;">Displaying All</span> </h4></span>
+                </div>
+            </div>
+            <!--End of serach box-->
+
+        {{#each getPackageHelper}}
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12  blockFontColor">
+                <div class="small-box bg-packages rowWidthPackage">
+                    <div class="inner counterBackColor">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-4  col-md-4 col-sm-4 col-xs-4">
+                                    <h4><b>{{FramequestionCnt}}</b></h4>
+                                    <p class="clsFQsPackage" style="cursor: pointer;">FQs</p>
+
+                                </div>
+
+                                <div class="col-xs-4  col-md-4 col-sm-4 col-xs-4">
+                                    <h4><b></b></h4>
+                                    <p></p>
+
+                                </div>
+
+                                <div class="col-xs-4  col-md-4 col-sm-4 col-xs-4">
+                                    <h4><b>{{TotRefCnt}}</b></h4>
+                                    <p>References</p>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="progress-group" style="padding-top: 8px;width: 345px; margin-left: 13px;">
+                        <span class="progress-textClient">Assign</span>
+                        <span class="progress-number"><b>{{Assigned}}</b>&nbsp;/&nbsp;{{TotRefCnt}}&nbsp;</span>
+                        <div class="progress progress-bar-md" style="border-radius: 6px;margin-top: -1px;">
+                            <span class="progress-value">{{showPercentage Assigned TotRefCnt}}%</span>
+                            <div class="progress-bar progress-bar-aqua" style="width: {{showPercentage Assigned TotRefCnt}}%"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-group" style="padding-top: 8px;width: 345px; margin-left: 13px;">
+                        <span class="progress-textClient">In Progress</span>
+                        <span class="progress-number"><b>{{InProgress}}</b>&nbsp;/&nbsp;{{Assigned}}&nbsp;</span>
+                        <div class="progress progress-bar-md" style="border-radius: 6px;margin-top: -1px;">
+                            <span class="progress-value">{{showPercentage InProgress Assigned}}%</span>
+                            <div class="progress-bar progress-bar-InProgress" style="width: {{showPercentage InProgress Assigned}}%"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-group" style="padding-top: 8px;width: 345px; margin-left: 13px;">
+                        <span class="progress-textClient">Completed</span>
+                        <span class="progress-number"><b>{{Completed}}</b>&nbsp;/&nbsp;{{Assigned}}&nbsp;</span>
+                        <div class="progress progress-bar-md" style="border-radius: 6px;margin-top: -1px;">
+                            <span class="progress-value">{{showPercentage Completed Assigned}}%</span>
+                            <div class="progress-bar progress-bar-completed" style="width: {{showPercentage Completed Assigned}}%"></div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div style="cursor: pointer;" class="small-box-footer packageName clsFQsPackage" ><div class="packageNameLength" title="{{PackageName}}"><span class="glyphicon glyphicon-book"></span>&nbsp;{{PackageName}}</div></div>
+                </div>
+            </div>
+        {{/each}}
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+{{else}}
+    <div>
+        <!--<h2 style="color: #0066CC;">Please Wait......</h2>-->
+        <img id="imgLoading"  src="Images/loading.gif" style="height:400px;width:550px;">
+    </div>
+
+
+{{/if}}
+
+</template>
+

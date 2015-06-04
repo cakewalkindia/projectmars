@@ -119,8 +119,9 @@ SDSubscription=Meteor.subscribe('StudyData', Session.get('ReferenceList'));
             $(".nav").find(".active").removeClass("active");
             $(this).parent().addClass("active");
         });
+    }
 
-
+    showHideBox= function () {
         $('.fa-caret-down').on('click', function(e) {
             e.preventDefault();
             var $this = $(this);
@@ -151,67 +152,56 @@ SDSubscription=Meteor.subscribe('StudyData', Session.get('ReferenceList'));
 
 
 
-Template.StudyDesign.helpers({
-    'getDesignData': function () {
-        var studyNamesWithCount = [];
+    Template.StudyDesign.helpers({
+        'getDesignData': function () {
+            var studyNamesWithCount = [];
 
-        //var data= textData.find({ ReferenceId: { $in: Session.get("ReferenceList")},"Data.StudyData.data" : { "$elemMatch" :
-        //{ "sourcename" : /StudyDesign_/}}}, {"Data.StudyData.data.$":1})
+            //var data= textData.find({ ReferenceId: { $in: Session.get("ReferenceList")},"Data.StudyData.data" : { "$elemMatch" :
+            //{ "sourcename" : /StudyDesign_/}}}, {"Data.StudyData.data.$":1})
 
-        //var data= textData.findOne({TaskId: "3323"});
-        //var studyNamesWithCount=[];
+            //var data= textData.findOne({TaskId: "3323"});
+            //var studyNamesWithCount=[];
 
-        var dataList = textData.find().fetch();
+            var dataList = textData.find().fetch();
 
-        if (dataList.length > 0) {
-            var studyNames = [];
-            for (var i = 0; i < dataList.length; i++) {
-                var data = dataList[i].Data.StudyData[0].data;
-                for (var j = 0; j < data.length; j++) {
-                    var source = data[j];
-                    if (source.sourcename) {
-                        if (source.sourcename.indexOf('StudyDesign_') > -1) {
-                            for (var k = 0; k < source.Datapoints.length; k++) {
-                                var dp = source.Datapoints[0];
-                                if (dp.Name == "Study Design") {
-                                    if(dp.Value != "" && dp.Value != undefined != dp.Value!=null) {
-                                        studyNames.push(dp.Value);
+            if (dataList.length > 0) {
+                var studyNames = [];
+                for (var i = 0; i < dataList.length; i++) {
+                    var data = dataList[i].Data.StudyData[0].data;
+                    for (var j = 0; j < data.length; j++) {
+                        var source = data[j];
+                        if (source.sourcename) {
+                            if (source.sourcename.indexOf('StudyDesign_') > -1) {
+                                for (var k = 0; k < source.Datapoints.length; k++) {
+                                    var dp = source.Datapoints[0];
+                                    if (dp.Name == "Study Design") {
+                                        if(dp.Value != "" && dp.Value != undefined != dp.Value!=null) {
+                                            studyNames.push(dp.Value);
+                                        }
+                                        break;
                                     }
-                                    break;
                                 }
                             }
                         }
                     }
                 }
-            }
-            Session.set("StudyCount", studyNames.length);
+                Session.set("StudyCount", studyNames.length);
 
-            studyNamesWithCount = Utils.compressArray(studyNames);
-            Session.set("ChartData",studyNamesWithCount);
-            generateChart();
+                studyNamesWithCount = Utils.compressArray(studyNames);
+                Session.set("ChartData",studyNamesWithCount);
+                generateChart();
+            }
+
+            return studyNamesWithCount;
         }
 
-        return studyNamesWithCount;
+    });
+
+
+
+    Template.StudyDesign.rendered = function () {
+        generateChart();
+
+        setActiveItemButton();
+        showHideBox();
     }
-
-    //'setRowColor': function () {
-    //    var me = this;
-    //    var isTrue = isOdd(me.index);
-    //
-    //    if(isTrue){
-    //        return "";
-    //    }else{
-    //        return "rowColor";
-    //    }
-    //
-    //}
-
-});
-
-
-
-Template.StudyDesign.rendered = function () {
-    generateChart();
-
-    setActiveItemButton();
-}

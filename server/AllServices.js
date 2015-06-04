@@ -6,6 +6,7 @@ Service={
     Sources: {
         getPackagesByClient: 'http://extractservices.doctorevidence.com/getPackagesByClient/',
         getReferecesByPackage: 'http://extractservices.doctorevidence.com/getReferencesByPackage/',
-        getStudyList: 'http://extractservices.doctorevidence.com/getStudyList/'
+        getStudyList: 'http://extractservices.doctorevidence.com/getStudyList/',
+        getErrorReportData: 'http://extractservices.doctorevidence.com/getErrorReport/'
     }
 }
