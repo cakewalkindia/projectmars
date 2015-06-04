@@ -19,7 +19,7 @@ if(Meteor.isClient) {
 
     Template.client.events({
         'click .clsPackage': function () {
-            debugger
+            //debugger
             Meteor.call('getPackageDataBlock', this.ClientId, function (err, result) {
                 Session.set('packageDetails', result);
                 Session.set('allPackages', result);

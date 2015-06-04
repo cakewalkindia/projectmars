@@ -350,9 +350,9 @@
       "path": "packages/http.js"
     },
     {
-      "sourceMap": "packages/mrt_datatables-bootstrap3.js.map",
+      "sourceMap": "packages/mrt_datatables.js.map",
       "sourceMapRoot": "packages",
-      "path": "packages/mrt_datatables-bootstrap3.js"
+      "path": "packages/mrt_datatables.js"
     },
     {
       "sourceMap": "packages/session.js.map",

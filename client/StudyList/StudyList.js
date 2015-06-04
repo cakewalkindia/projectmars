@@ -25,8 +25,8 @@ Template.StudyList.helpers({
             setTimeout(function () {
                 var table = $('#example1').dataTable( {
                     "bPaginate": true,
-                    //"sPaginationType": "full_numbers",
-                    "sPaginationType": "bs_full",
+                    "sPaginationType": "full_numbers",
+                    //"sPaginationType": "bs_full",
                     //"sPaginationType": "bootstrap",
                     "bInfo": true,
                     "bFilter": true,
@@ -44,8 +44,8 @@ Template.StudyList.helpers({
                     //"sAjaxSource": Session.get("StudyListData")
                 } );
 
-                $('#example1_filter')[0].childNodes[0].childNodes[0].placeholder='Search';
-                $('#example1_filter')[0].childNodes[0].childNodes[0].setAttribute('style','width:500px;')
+                //$('#example1_filter')[0].childNodes[0].childNodes[0].placeholder='Search';
+                //$('#example1_filter')[0].childNodes[0].childNodes[0].setAttribute('style','width:500px;')
             },0)
 
         });

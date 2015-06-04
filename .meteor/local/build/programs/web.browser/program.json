@@ -673,26 +673,15 @@
       "hash": "c3c7d0da66f683af57294173733637845f39253a"
     },
     {
-      "path": "packages/foldor_bootstrap-3.js",
+      "path": "packages/mrt_datatables.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/foldor_bootstrap-3.js?283787dc767030c37246d3da4f1312984f570281",
-      "sourceMap": "packages/foldor_bootstrap-3.js.map",
-      "sourceMapUrl": "/packages/283787dc767030c37246d3da4f1312984f570281.map",
-      "size": 269800,
-      "hash": "283787dc767030c37246d3da4f1312984f570281"
-    },
-    {
-      "path": "packages/mrt_datatables-bootstrap3.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/mrt_datatables-bootstrap3.js?e2b6ebfa5b60e31b98691a4a0362bb0b9d225e16",
-      "sourceMap": "packages/mrt_datatables-bootstrap3.js.map",
-      "sourceMapUrl": "/packages/e2b6ebfa5b60e31b98691a4a0362bb0b9d225e16.map",
-      "size": 1568275,
-      "hash": "e2b6ebfa5b60e31b98691a4a0362bb0b9d225e16"
+      "url": "/packages/mrt_datatables.js?107f464bbca7f960169c009d2f5f6240a3a635ee",
+      "sourceMap": "packages/mrt_datatables.js.map",
+      "sourceMapUrl": "/packages/107f464bbca7f960169c009d2f5f6240a3a635ee.map",
+      "size": 1535336,
+      "hash": "107f464bbca7f960169c009d2f5f6240a3a635ee"
     },
     {
       "path": "packages/webapp.js",
@@ -966,18 +955,18 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyList/StudyList.js?54872fb21e2d157942925b887fabe2d3257a6003",
-      "size": 3525,
-      "hash": "54872fb21e2d157942925b887fabe2d3257a6003"
+      "url": "/client/StudyList/StudyList.js?6f1a6d7b26dd1f41683248ec26090756e6704ac9",
+      "size": 3529,
+      "hash": "6f1a6d7b26dd1f41683248ec26090756e6704ac9"
     },
     {
       "path": "app/client/clientName/clientBlock.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/clientName/clientBlock.js?5803b8a0ad6ce90eeeea610ffc1636f335db731b",
-      "size": 4021,
-      "hash": "5803b8a0ad6ce90eeeea610ffc1636f335db731b"
+      "url": "/client/clientName/clientBlock.js?4d808687f8a5e785b60bc746fb0799994ea100f0",
+      "size": 4023,
+      "hash": "4d808687f8a5e785b60bc746fb0799994ea100f0"
     },
     {
       "path": "app/client/login/login.js",
@@ -1018,15 +1007,15 @@
       "hash": "262da6fb1e9c97be84333c429c9a2929c80f8e3b"
     },
     {
-      "path": "104bdb8890dd9a916aeaacdc2d832baa1fd662cb.css",
+      "path": "3dd64ab68dae1015f7c9c289c2ed6ad8544616b6.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/104bdb8890dd9a916aeaacdc2d832baa1fd662cb.css",
-      "sourceMap": "104bdb8890dd9a916aeaacdc2d832baa1fd662cb.css.map",
-      "sourceMapUrl": "/104bdb8890dd9a916aeaacdc2d832baa1fd662cb.map",
-      "size": 1025837,
-      "hash": "104bdb8890dd9a916aeaacdc2d832baa1fd662cb"
+      "url": "/3dd64ab68dae1015f7c9c289c2ed6ad8544616b6.css",
+      "sourceMap": "3dd64ab68dae1015f7c9c289c2ed6ad8544616b6.css.map",
+      "sourceMapUrl": "/3dd64ab68dae1015f7c9c289c2ed6ad8544616b6.map",
+      "size": 891629,
+      "hash": "3dd64ab68dae1015f7c9c289c2ed6ad8544616b6"
     },
     {
       "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
@@ -1119,83 +1108,101 @@
       "hash": "1075231650f579955905bb2f6527148a8e2b4b16"
     },
     {
-      "path": "packages/foldor_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot",
+      "path": "packages/mrt_datatables/lib/images/back_disabled.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/foldor_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.eot",
-      "size": 20335,
-      "hash": "f3a9a3b609133c3d21d6b42abbf7f43bd111df72"
+      "url": "/packages/mrt_datatables/lib/images/back_disabled.png",
+      "size": 1361,
+      "hash": "4fd6412cf91a9486b25ffb06ff93d43c245bd5ef"
     },
     {
-      "path": "packages/foldor_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf",
+      "path": "packages/mrt_datatables/lib/images/back_enabled.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/foldor_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.ttf",
-      "size": 41280,
-      "hash": "aafafdc09404c4aa4447d7e898a2183def9cc1b1"
+      "url": "/packages/mrt_datatables/lib/images/back_enabled.png",
+      "size": 1379,
+      "hash": "e834dda063b9f3b726a7e1d0d56dd4fd08256b6b"
     },
     {
-      "path": "packages/foldor_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg",
+      "path": "packages/mrt_datatables/lib/images/back_enabled_hover.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/foldor_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg",
-      "size": 62927,
-      "hash": "3ef91859cbec165ac97df6957b176f69e8d6a04d"
+      "url": "/packages/mrt_datatables/lib/images/back_enabled_hover.png",
+      "size": 1375,
+      "hash": "d0cea8669214fdfdebc6d38249ddeb3cb0b5bd07"
     },
     {
-      "path": "packages/foldor_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff",
+      "path": "packages/mrt_datatables/lib/images/forward_disabled.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/foldor_bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.woff",
-      "size": 23320,
-      "hash": "22037a3455914e5662fa51a596677bdb329e2c5c"
+      "url": "/packages/mrt_datatables/lib/images/forward_disabled.png",
+      "size": 1363,
+      "hash": "c30deed1f703efd6e58e3188ea51fc6fab46f35f"
     },
     {
-      "path": "packages/mrt_datatables-bootstrap3/lib/images/sort_asc.png",
+      "path": "packages/mrt_datatables/lib/images/forward_enabled.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/mrt_datatables-bootstrap3/lib/images/sort_asc.png",
+      "url": "/packages/mrt_datatables/lib/images/forward_enabled.png",
+      "size": 1380,
+      "hash": "63bbb33409d8420563e57a15b56e9bc5048e6f52"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/forward_enabled_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/forward_enabled_hover.png",
+      "size": 1379,
+      "hash": "b8dfb55cc3b5b250ef29838c83f2788fd45083de"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/sort_asc.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/sort_asc.png",
       "size": 1118,
       "hash": "fdadf7f5935f4a411ab19366c6590546432acd0f"
     },
     {
-      "path": "packages/mrt_datatables-bootstrap3/lib/images/sort_asc_disabled.png",
+      "path": "packages/mrt_datatables/lib/images/sort_asc_disabled.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/mrt_datatables-bootstrap3/lib/images/sort_asc_disabled.png",
+      "url": "/packages/mrt_datatables/lib/images/sort_asc_disabled.png",
       "size": 1050,
       "hash": "cf127aab312c10ea8445c9230b3b65fad5013e26"
     },
     {
-      "path": "packages/mrt_datatables-bootstrap3/lib/images/sort_both.png",
+      "path": "packages/mrt_datatables/lib/images/sort_both.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/mrt_datatables-bootstrap3/lib/images/sort_both.png",
+      "url": "/packages/mrt_datatables/lib/images/sort_both.png",
       "size": 1136,
       "hash": "cb35461ff7f6547daed299080563969b41fed878"
     },
     {
-      "path": "packages/mrt_datatables-bootstrap3/lib/images/sort_desc.png",
+      "path": "packages/mrt_datatables/lib/images/sort_desc.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/mrt_datatables-bootstrap3/lib/images/sort_desc.png",
+      "url": "/packages/mrt_datatables/lib/images/sort_desc.png",
       "size": 1127,
       "hash": "79bc8ee64be969c8c02db30a9317e534a3db7877"
     },
     {
-      "path": "packages/mrt_datatables-bootstrap3/lib/images/sort_desc_disabled.png",
+      "path": "packages/mrt_datatables/lib/images/sort_desc_disabled.png",
       "where": "client",
       "type": "asset",
       "cacheable": false,
-      "url": "/packages/mrt_datatables-bootstrap3/lib/images/sort_desc_disabled.png",
+      "url": "/packages/mrt_datatables/lib/images/sort_desc_disabled.png",
       "size": 1045,
       "hash": "7bc88275f1d99623505dfa0d6730978e5c65525e"
     },
