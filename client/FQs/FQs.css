@@ -1,0 +1,94 @@
+.FQName
+{
+    font-size: 15px !important;
+    height: 43px !important;
+
+}
+
+.assignBlock
+{
+    font-size: 20px !important;
+
+}
+
+.progressBarMargin
+{
+    height: 11px !important;
+    margin-left: 7px !important;
+    border-radius: 6px !important;
+}
+
+
+
+.FQNameLength
+{
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    /*height: 30px;*/
+    margin: 0 auto;
+    /*font-size: 14px;*/
+    /*line-height: 1;*/
+    -webkit-line-clamp: 2 !important;
+    line-clamp: 2 !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    text-align: left;
+    height: 40px;
+
+}
+
+.bg-FQ, .callout.callout-warning, .alert-warning, .label-waring, .modal-warning .modal-body {
+    background-color: #339999 !important;
+
+}
+
+.bg-FQBlock
+{
+    background: #dd4b39 !important;
+}
+
+.bckColor{
+    background: #0198E1 !important;
+}
+
+.rowWidthFQ
+{
+    width: 370px !important;
+}
+
+.rightPanel{
+    width: 118px;
+    height: 100px;
+    background: cadetblue;
+    border-radius: 6px;
+    padding-top: 15px;
+}
+
+.badgeWidth
+{
+    width: 88px !important;
+}
+.tableColor
+{
+    background-color: #39cccc;
+}
+
+.textColor
+{
+    background-color: #CC6699;
+}
+
+.textFR
+{
+    background-color: #9370DB;
+}
+
+
+
+.bg-FQs, .callout.callout-warning, .alert-warning, .label-waring, .modal-warning .modal-body {
+    background-color: #339999 !important;
+
+}

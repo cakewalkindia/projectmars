@@ -12,7 +12,7 @@ Meteor.publish('StudyData', function(TaskId) {
             { "sourcename" : /StudyDesign_/}}
         },
         {
-            fields: {'Data.StudyData.data.$': 1}
+            fields: {'Data.StudyData.data.$': 1, ReferenceId:1}
         }
     );
 
@@ -48,6 +48,15 @@ Meteor.methods({
     getStudyListData: function (packageId) {
         var qWait = new Future();
         Meteor.http.get(Service.Sources.getStudyList + packageId, function (err, res) {
+            obj = res.content; //JSON.parse(res.content);
+            return qWait.return(obj);
+        });
+        return qWait.wait();
+    },
+
+    getErrorReportData: function (referenceId) {
+        var qWait = new Future();
+        Meteor.http.get(Service.Sources.getErrorReportData + referenceId, function (err, res) {
             obj = res.content; //JSON.parse(res.content);
             return qWait.return(obj);
         });

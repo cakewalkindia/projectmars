@@ -673,6 +673,17 @@
       "hash": "c3c7d0da66f683af57294173733637845f39253a"
     },
     {
+      "path": "packages/mrt_datatables.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/mrt_datatables.js?107f464bbca7f960169c009d2f5f6240a3a635ee",
+      "sourceMap": "packages/mrt_datatables.js.map",
+      "sourceMapUrl": "/packages/107f464bbca7f960169c009d2f5f6240a3a635ee.map",
+      "size": 1535336,
+      "hash": "107f464bbca7f960169c009d2f5f6240a3a635ee"
+    },
+    {
       "path": "packages/webapp.js",
       "where": "client",
       "type": "js",
@@ -715,13 +726,22 @@
       "hash": "3ec77f3f7514b0124e03b5b8b16566861f1232cf"
     },
     {
+      "path": "app/client/FQs/template.FQs.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/FQs/template.FQs.js?0768baad4fb46001e3955bc69bf683b2531fcf83",
+      "size": 8977,
+      "hash": "0768baad4fb46001e3955bc69bf683b2531fcf83"
+    },
+    {
       "path": "app/client/Layout/template.masterLayout.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/Layout/template.masterLayout.js?d134c94716fbf85267d72bbe561ead0cef96a87f",
-      "size": 9119,
-      "hash": "d134c94716fbf85267d72bbe561ead0cef96a87f"
+      "url": "/client/Layout/template.masterLayout.js?8a9d3ba57f179d75da35c1e5f80abc527318920d",
+      "size": 8862,
+      "hash": "8a9d3ba57f179d75da35c1e5f80abc527318920d"
     },
     {
       "path": "app/client/Main/template.Main.js",
@@ -746,27 +766,36 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyDesign/template.StudyDesign.js?16da535d7cc51219b77fbdafbead9ec73a30a6a7",
-      "size": 5411,
-      "hash": "16da535d7cc51219b77fbdafbead9ec73a30a6a7"
+      "url": "/client/StudyDesign/template.StudyDesign.js?beab01f28bb7b3e3d643d3a4306abdc27a417863",
+      "size": 5419,
+      "hash": "beab01f28bb7b3e3d643d3a4306abdc27a417863"
     },
     {
       "path": "app/client/StudyDetail/template.StudyDetail.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyDetail/template.StudyDetail.js?99d6591942396c3505183260e560e2efa0dd0974",
-      "size": 94918,
-      "hash": "99d6591942396c3505183260e560e2efa0dd0974"
+      "url": "/client/StudyDetail/template.StudyDetail.js?b22933d3e991c47056cbce07c0d980082a80c026",
+      "size": 192207,
+      "hash": "b22933d3e991c47056cbce07c0d980082a80c026"
     },
     {
       "path": "app/client/StudyList/template.StudyList.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyList/template.StudyList.js?506e9d851f0b88848e6efdcdd9b4359319a41833",
-      "size": 10101,
-      "hash": "506e9d851f0b88848e6efdcdd9b4359319a41833"
+      "url": "/client/StudyList/template.StudyList.js?9368ff3255597f630b8810d85cf4cd39278786e6",
+      "size": 10882,
+      "hash": "9368ff3255597f630b8810d85cf4cd39278786e6"
+    },
+    {
+      "path": "app/client/clientName/template.clientBlock.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/clientName/template.clientBlock.js?a19be63a6be1b41601b76f3594d98f052a53ca7a",
+      "size": 9554,
+      "hash": "a19be63a6be1b41601b76f3594d98f052a53ca7a"
     },
     {
       "path": "app/client/login/template.login.js",
@@ -776,6 +805,15 @@
       "url": "/client/login/template.login.js?21e4e64ed536eee01d1d9d0f0137385ca1121427",
       "size": 1742,
       "hash": "21e4e64ed536eee01d1d9d0f0137385ca1121427"
+    },
+    {
+      "path": "app/client/packageName/template.packageName.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/packageName/template.packageName.js?e25e8c6a57044c10329413d54f866280c1ae1a52",
+      "size": 9092,
+      "hash": "e25e8c6a57044c10329413d54f866280c1ae1a52"
     },
     {
       "path": "app/lib/ExtractionEngine.js",
@@ -841,22 +879,13 @@
       "hash": "b546b40fce769aa7e83c00bd3cf740c98d43ddf8"
     },
     {
-      "path": "app/client/adminLTE/bootstrap/js/respond.min.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/adminLTE/bootstrap/js/respond.min.js?be59683775624888b974d817abd4478719b1da19",
-      "size": 4397,
-      "hash": "be59683775624888b974d817abd4478719b1da19"
-    },
-    {
       "path": "app/client/adminLTE/dist/js/app.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/adminLTE/dist/js/app.js?8fc5a98ec149e4ec3fa5e816df6a062bec423621",
-      "size": 15567,
-      "hash": "8fc5a98ec149e4ec3fa5e816df6a062bec423621"
+      "url": "/client/adminLTE/dist/js/app.js?84f5e64e5f8168ee21dbe144f326d2440df523de",
+      "size": 15552,
+      "hash": "84f5e64e5f8168ee21dbe144f326d2440df523de"
     },
     {
       "path": "app/client/adminLTE/dist/js/app.min.js",
@@ -875,6 +904,15 @@
       "url": "/client/adminLTE/dist/js/demo.js?df104a6f6362fba69e8590f60eda1ee5bd7ee4f0",
       "size": 17877,
       "hash": "df104a6f6362fba69e8590f60eda1ee5bd7ee4f0"
+    },
+    {
+      "path": "app/client/FQs/FQs.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/FQs/FQs.js?95f21d6db190941dd3da49e134ced39cb6263c26",
+      "size": 3566,
+      "hash": "95f21d6db190941dd3da49e134ced39cb6263c26"
     },
     {
       "path": "app/client/Layout/masterLayout.js",
@@ -899,27 +937,36 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyDesign/StudyDesign.js?86e3110b9cfc31cc14c44482af4ec684f3dfd99f",
-      "size": 6961,
-      "hash": "86e3110b9cfc31cc14c44482af4ec684f3dfd99f"
+      "url": "/client/StudyDesign/StudyDesign.js?983bbda731eaf1ad0e17edb0b4f59315e8336f72",
+      "size": 6952,
+      "hash": "983bbda731eaf1ad0e17edb0b4f59315e8336f72"
     },
     {
       "path": "app/client/StudyDetail/StudyDetail.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyDetail/StudyDetail.js?03928ecc8ba1227087f2c9c562c388bd28c09bf0",
-      "size": 69,
-      "hash": "03928ecc8ba1227087f2c9c562c388bd28c09bf0"
+      "url": "/client/StudyDetail/StudyDetail.js?43e0c17373aaaba3cd63e9bded675295bd44a86a",
+      "size": 8816,
+      "hash": "43e0c17373aaaba3cd63e9bded675295bd44a86a"
     },
     {
       "path": "app/client/StudyList/StudyList.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/StudyList/StudyList.js?362c7907cc8f378289fe4b09e0e9691d13f5820f",
-      "size": 1315,
-      "hash": "362c7907cc8f378289fe4b09e0e9691d13f5820f"
+      "url": "/client/StudyList/StudyList.js?6f1a6d7b26dd1f41683248ec26090756e6704ac9",
+      "size": 3529,
+      "hash": "6f1a6d7b26dd1f41683248ec26090756e6704ac9"
+    },
+    {
+      "path": "app/client/clientName/clientBlock.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/clientName/clientBlock.js?4d808687f8a5e785b60bc746fb0799994ea100f0",
+      "size": 4023,
+      "hash": "4d808687f8a5e785b60bc746fb0799994ea100f0"
     },
     {
       "path": "app/client/login/login.js",
@@ -931,13 +978,22 @@
       "hash": "2e7635ecdd3928ee4dc57ffe0702df236aee1aac"
     },
     {
+      "path": "app/client/packageName/packageName.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/packageName/packageName.js?1a0647ebe66d96ff2e322ac8557904e968e03e4b",
+      "size": 2474,
+      "hash": "1a0647ebe66d96ff2e322ac8557904e968e03e4b"
+    },
+    {
       "path": "app/client/routing.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/routing.js?3e4568c51635894205b89824acd6e413d5fcbcd6",
-      "size": 858,
-      "hash": "3e4568c51635894205b89824acd6e413d5fcbcd6"
+      "url": "/client/routing.js?34d1b557707daa873b8c84fe31ef851a97483b14",
+      "size": 1581,
+      "hash": "34d1b557707daa873b8c84fe31ef851a97483b14"
     },
     {
       "path": "packages/service-configuration.js",
@@ -951,15 +1007,15 @@
       "hash": "262da6fb1e9c97be84333c429c9a2929c80f8e3b"
     },
     {
-      "path": "79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f.css",
+      "path": "3dd64ab68dae1015f7c9c289c2ed6ad8544616b6.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f.css",
-      "sourceMap": "79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f.css.map",
-      "sourceMapUrl": "/79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f.map",
-      "size": 888839,
-      "hash": "79f1a1bd23dbd49d7c9d02a98f0bc996401aee5f"
+      "url": "/3dd64ab68dae1015f7c9c289c2ed6ad8544616b6.css",
+      "sourceMap": "3dd64ab68dae1015f7c9c289c2ed6ad8544616b6.css.map",
+      "sourceMapUrl": "/3dd64ab68dae1015f7c9c289c2ed6ad8544616b6.map",
+      "size": 891629,
+      "hash": "3dd64ab68dae1015f7c9c289c2ed6ad8544616b6"
     },
     {
       "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
@@ -1052,6 +1108,105 @@
       "hash": "1075231650f579955905bb2f6527148a8e2b4b16"
     },
     {
+      "path": "packages/mrt_datatables/lib/images/back_disabled.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/back_disabled.png",
+      "size": 1361,
+      "hash": "4fd6412cf91a9486b25ffb06ff93d43c245bd5ef"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/back_enabled.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/back_enabled.png",
+      "size": 1379,
+      "hash": "e834dda063b9f3b726a7e1d0d56dd4fd08256b6b"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/back_enabled_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/back_enabled_hover.png",
+      "size": 1375,
+      "hash": "d0cea8669214fdfdebc6d38249ddeb3cb0b5bd07"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/forward_disabled.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/forward_disabled.png",
+      "size": 1363,
+      "hash": "c30deed1f703efd6e58e3188ea51fc6fab46f35f"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/forward_enabled.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/forward_enabled.png",
+      "size": 1380,
+      "hash": "63bbb33409d8420563e57a15b56e9bc5048e6f52"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/forward_enabled_hover.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/forward_enabled_hover.png",
+      "size": 1379,
+      "hash": "b8dfb55cc3b5b250ef29838c83f2788fd45083de"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/sort_asc.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/sort_asc.png",
+      "size": 1118,
+      "hash": "fdadf7f5935f4a411ab19366c6590546432acd0f"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/sort_asc_disabled.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/sort_asc_disabled.png",
+      "size": 1050,
+      "hash": "cf127aab312c10ea8445c9230b3b65fad5013e26"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/sort_both.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/sort_both.png",
+      "size": 1136,
+      "hash": "cb35461ff7f6547daed299080563969b41fed878"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/sort_desc.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/sort_desc.png",
+      "size": 1127,
+      "hash": "79bc8ee64be969c8c02db30a9317e534a3db7877"
+    },
+    {
+      "path": "packages/mrt_datatables/lib/images/sort_desc_disabled.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/mrt_datatables/lib/images/sort_desc_disabled.png",
+      "size": 1045,
+      "hash": "7bc88275f1d99623505dfa0d6730978e5c65525e"
+    },
+    {
       "path": "app/Images/contactUs.JPG",
       "where": "client",
       "type": "asset",
@@ -1059,6 +1214,15 @@
       "url": "/Images/contactUs.JPG",
       "size": 90385,
       "hash": "514daeee3985d52ecff8d1f2f70f87d102302e0f"
+    },
+    {
+      "path": "app/Images/loading.gif",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Images/loading.gif",
+      "size": 3940,
+      "hash": "bb7989790a5063d72b8ab7d08979cc1d2843e47b"
     }
   ]
 }

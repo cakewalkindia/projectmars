@@ -11,50 +11,53 @@
             </div>
         </div>
 
-        <div class="box-body" style="min-height: 63px;height: 750px; width: 100%; overflow-y: auto;">
 
-            <div class="pull-left">
-                <button style="background: #337ab7; color: white !important; margin-top: 1px;" type="button" class=" btn btn-primary" onclick="toggle_visibility('hideMe')">Show hide Columns</button>
-            </div>
 
-            <div class="form-group has-feedback pull-right" style="width: 35%;">
-                <input type="text" class="form-control" placeholder="search here"/>
-                <i class="fa fa-search form-control-feedback"></i>
-            </div>
 
-            <ul id="hideMe" class="ColVis_collection" style="display: none; opacity: 1; position: absolute;top: 76px;left: 10px;">
-                <!--<li><label><input type="checkbox"><span class="paddingLeft">Study Id</span></label></li>-->
-                <li><label><input type="checkbox"><span class="paddingLeft">Reference Id</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">Name</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">Year</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">Title</span></label></li>
-                <!--<li><label><input type="checkbox"><span class="paddingLeft">Design</span></label></li>-->
-                <li><label><input type="checkbox"><span class="paddingLeft">Acronym</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">Authors</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">Country</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">FirstAuthor</span></label></li>
-                <!--<li><label><input type="checkbox"><span class="paddingLeft">FramedQuestions</span></label></li>-->
-                <li><label><input type="checkbox"><span class="paddingLeft">ISSN</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">Institution</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">JournalTitle</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">MeSH</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">MedlineID</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">ParentChildStatus</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">ParentID</span></label></li>
-                <!--<li><label><input type="checkbox"><span class="paddingLeft">Participants</span></label></li>-->
-                <li><label><input type="checkbox"><span class="paddingLeft">PubType</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">SecondarySourceID</span></label></li>
-                <li><label><input type="checkbox"><span class="paddingLeft">Source</span></label></li>
-                <!--<li><label><input type="checkbox"><span class="paddingLeft">TrialOutcome</span></label></li>-->
-                <!--<li><label><input type="checkbox"><span class="paddingLeft">Types</span></label></li>-->
-                <li><label><input type="checkbox"><span class="paddingLeft">View</span></label></li>
-            </ul>
+        <div class="box-body" style="min-height: 63px; width: 100%; ">
 
-            <table id="example1" class="table table-responsive table-hover">
+            <!--<div class="pull-left">-->
+                <!--<button style="background: #337ab7; color: white !important; margin-top: 1px;" type="button" class=" btn btn-primary" onclick="toggle_visibility('hideMe')">Show hide Columns</button>-->
+            <!--</div>-->
+
+            <!--<div class="form-group has-feedback pull-right" style="width: 35%;">-->
+                <!--<input type="text" class="form-control" placeholder="search here"/>-->
+                <!--<i class="fa fa-search form-control-feedback"></i>-->
+            <!--</div>-->
+
+            <!--<ul id="hideMe" class="ColVis_collection" style="display: none; opacity: 1; position: absolute;top: 76px;left: 10px;">-->
+                <!--&lt;!&ndash;<li><label><input type="checkbox"><span class="paddingLeft">Study Id</span></label></li>&ndash;&gt;-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Reference Id</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Name</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Year</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Title</span></label></li>-->
+                <!--&lt;!&ndash;<li><label><input type="checkbox"><span class="paddingLeft">Design</span></label></li>&ndash;&gt;-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Acronym</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Authors</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Country</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">FirstAuthor</span></label></li>-->
+                <!--&lt;!&ndash;<li><label><input type="checkbox"><span class="paddingLeft">FramedQuestions</span></label></li>&ndash;&gt;-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">ISSN</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Institution</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">JournalTitle</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">MeSH</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">MedlineID</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">ParentChildStatus</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">ParentID</span></label></li>-->
+                <!--&lt;!&ndash;<li><label><input type="checkbox"><span class="paddingLeft">Participants</span></label></li>&ndash;&gt;-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">PubType</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">SecondarySourceID</span></label></li>-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">Source</span></label></li>-->
+                <!--&lt;!&ndash;<li><label><input type="checkbox"><span class="paddingLeft">TrialOutcome</span></label></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li><label><input type="checkbox"><span class="paddingLeft">Types</span></label></li>&ndash;&gt;-->
+                <!--<li><label><input type="checkbox"><span class="paddingLeft">View</span></label></li>-->
+            <!--</ul>-->
+
+            <table id="example1" class="table table-striped table-bordered" cellspacing="0" width="100%">
                 <thead class="bg-primary">
                 <tr >
                     <th>Reference Id</th>
-                    <th>Name</th>
+                    <th class="clmName">Name</th>
                     <th>Year</th>
                     <th>Title</th>
                     <th class="hiddenObj">Acronym</th>
@@ -78,7 +81,7 @@
                 {{#each getStudyListData}}
                     <tr class="tr-alter-row" style="height: 50px;">
                         <td class="td-align">{{ReferenceID}}</td>
-                        <td class="td-align">{{FirstName}}</td>
+                        <td class="td-align clmName">{{FirstName}}</td>
                         <td class="td-align">{{Year}}</td>
                         <td class="td-align">{{Title}}</td>
                         <td class="td-align hiddenObj">{{Acronym}}</td>
@@ -95,7 +98,7 @@
                         <td class="td-align hiddenObj">{{PubType}}</td>
                         <td class="td-align hiddenObj">{{SecondarySourceID}}</td>
                         <td class="td-align hiddenObj">{{Source}}</td>
-                        <td class="td-align"><a href="#"><i class="fa fa-file-text"></i></a></td>
+                        <td class="td-align"><div style="cursor: pointer; color: #0072b1;"><i class="fa fa-file-text clk-to-view"></i></div></td>
                     </tr>
                 {{/each}}
 
@@ -104,7 +107,7 @@
 
         </div>
 
-        <div style="margin-top: 8px;  margin-left: 17px;  color: dimgray; font-size: 12px;"  aria-live="polite"><b>Showing 1 to {{getDataCount}} of {{getDataCount}} entries</b></div>
+        <!--<div style="margin-top: 8px;  margin-left: 17px;  color: dimgray; font-size: 12px;"  aria-live="polite"><b>Showing 1 to {{getDataCount}} of {{getDataCount}} entries</b></div>-->
 
     </div>
 </template>
